@@ -1,0 +1,1080 @@
+{
+  "nodes": [
+    {
+      "name": "Medhya",
+      "label": "RootConcept",
+      "category": "root",
+      "description": "That which enhances cognition",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Rasayana",
+      "label": "RootConcept",
+      "category": "root",
+      "description": "Rejuvenating class of Ayurvedic treatment",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Medhya Rasayana",
+      "label": "RootConcept",
+      "category": "root",
+      "description": "Cognitive rejuvenation — primary domain",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Medha",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Cognitive faculty — intellect/wisdom",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Smriti",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Memory and retention faculty",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Buddhi",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Higher intellect and discrimination",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Dhi",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Retentive faculty of the mind",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Prajna",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Wisdom from direct knowledge",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Jnana",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Knowledge",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Manas",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Mind — instrument of cognition",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Mati",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Comprehension",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Dhriti",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Mental stability and willpower",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Chitta",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Consciousness and memory substrate",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Viveka",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Discriminative wisdom",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Dharana",
+      "label": "Concept",
+      "category": "cognitive",
+      "description": "Concentration and retention",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Ojas",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Vital essence",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Ayushya",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Life-span promoting",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Balya",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Strength promoting",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Ojovardhana",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Increases Ojas",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Jeevaniya",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Life-sustaining",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Vayasthapana",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Age-stabilizing",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Pushtikara",
+      "label": "Concept",
+      "category": "rasayana",
+      "description": "Nourishing and tissue-building",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Dravya",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Substance",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Kalpana",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Pharmaceutical preparation",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Rasa",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Taste",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Guna",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Quality",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Virya",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Potency",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Vipaka",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Post-digestive effect",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Prabhava",
+      "label": "AyurvedicProperty",
+      "category": "property",
+      "description": "Specific unexplained action",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Brahmi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "Primary Medhya Rasayana — enhances Smriti and Medha",
+      "sanskrit": "ब्राह्मी",
+      "latin": "Bacopa monnieri",
+      "source": "seed"
+    },
+    {
+      "name": "Bacopa",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Jalabrahmi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Mandukaparni",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "Medhya Rasayana — enhances Medha and Buddhi",
+      "sanskrit": "माण्डूकपर्णी",
+      "latin": "Centella asiatica",
+      "source": "seed"
+    },
+    {
+      "name": "Mandukparni",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Thankuni",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Gotu kola",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Shankhapushpi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "Medhya Rasayana — enhances Medha and Smriti",
+      "sanskrit": "शङ्खपुष्पी",
+      "latin": "Convolvulus pluricaulis",
+      "source": "seed"
+    },
+    {
+      "name": "Shankhpushpi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Sankhpushpi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Guduchi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "Rasayana — promotes Ojas, balances all doshas",
+      "sanskrit": "गुडूची",
+      "latin": "Tinospora cordifolia",
+      "source": "seed"
+    },
+    {
+      "name": "Giloy",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Gudduci",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Amrita",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Yashtimadhu",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "Medhya and Rasayana — supports Ojas",
+      "sanskrit": "यष्टिमधु",
+      "latin": "Glycyrrhiza glabra",
+      "source": "seed"
+    },
+    {
+      "name": "Yashti",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Licorice",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Mulethi",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Vacha",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "Medhya — enhances Smriti and speech",
+      "sanskrit": "वचा",
+      "latin": "Acorus calamus",
+      "source": "seed"
+    },
+    {
+      "name": "Vaca",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Sweet flag",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Calamus",
+      "label": "Herb",
+      "category": "medhya_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Ashwagandha",
+      "label": "Herb",
+      "category": "rasayana_herb",
+      "description": "Balya and Rasayana — enhances Ojas and strength",
+      "sanskrit": "अश्वगन्धा",
+      "latin": "Withania somnifera",
+      "source": "seed"
+    },
+    {
+      "name": "Ashvagandha",
+      "label": "Herb",
+      "category": "rasayana_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Withania",
+      "label": "Herb",
+      "category": "rasayana_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Winter cherry",
+      "label": "Herb",
+      "category": "rasayana_herb",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "seed"
+    },
+    {
+      "name": "Kala",
+      "label": "Concept",
+      "category": "medhya",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "amarakosha"
+    },
+    {
+      "name": "Sabdadi",
+      "label": "Concept",
+      "category": "medhya",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "amarakosha"
+    },
+    {
+      "name": "Natya",
+      "label": "Concept",
+      "category": "medhya",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "amarakosha"
+    },
+    {
+      "name": "Vanausadhi",
+      "label": "Concept",
+      "category": "medhya",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "amarakosha"
+    },
+    {
+      "name": "Simhadi",
+      "label": "Concept",
+      "category": "medhya",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "amarakosha"
+    },
+    {
+      "name": "Manusya",
+      "label": "Concept",
+      "category": "medhya",
+      "description": "",
+      "sanskrit": "",
+      "latin": "",
+      "source": "amarakosha"
+    }
+  ],
+  "triples": [
+    {
+      "subject": "Bacopa",
+      "relation": "SYNONYM_OF",
+      "object": "Brahmi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Jalabrahmi",
+      "relation": "SYNONYM_OF",
+      "object": "Brahmi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Mandukparni",
+      "relation": "SYNONYM_OF",
+      "object": "Mandukaparni",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Thankuni",
+      "relation": "SYNONYM_OF",
+      "object": "Mandukaparni",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Gotu kola",
+      "relation": "SYNONYM_OF",
+      "object": "Mandukaparni",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Shankhpushpi",
+      "relation": "SYNONYM_OF",
+      "object": "Shankhapushpi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Sankhpushpi",
+      "relation": "SYNONYM_OF",
+      "object": "Shankhapushpi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Giloy",
+      "relation": "SYNONYM_OF",
+      "object": "Guduchi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Gudduci",
+      "relation": "SYNONYM_OF",
+      "object": "Guduchi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Amrita",
+      "relation": "SYNONYM_OF",
+      "object": "Guduchi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Yashti",
+      "relation": "SYNONYM_OF",
+      "object": "Yashtimadhu",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Licorice",
+      "relation": "SYNONYM_OF",
+      "object": "Yashtimadhu",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Mulethi",
+      "relation": "SYNONYM_OF",
+      "object": "Yashtimadhu",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Vaca",
+      "relation": "SYNONYM_OF",
+      "object": "Vacha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Sweet flag",
+      "relation": "SYNONYM_OF",
+      "object": "Vacha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Calamus",
+      "relation": "SYNONYM_OF",
+      "object": "Vacha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Ashvagandha",
+      "relation": "SYNONYM_OF",
+      "object": "Ashwagandha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Withania",
+      "relation": "SYNONYM_OF",
+      "object": "Ashwagandha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Winter cherry",
+      "relation": "SYNONYM_OF",
+      "object": "Ashwagandha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya Rasayana",
+      "relation": "TYPE_OF",
+      "object": "Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya Rasayana",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Medhya",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Medha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Smriti",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Buddhi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Dhi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Prajna",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Manas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Dhriti",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Chitta",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medha",
+      "relation": "SYNONYM_OF",
+      "object": "Buddhi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medha",
+      "relation": "SYNONYM_OF",
+      "object": "Prajna",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Buddhi",
+      "relation": "SYNONYM_OF",
+      "object": "Dhi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Smriti",
+      "relation": "RELATED_TO",
+      "object": "Chitta",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Smriti",
+      "relation": "RELATED_TO",
+      "object": "Manas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Smriti",
+      "relation": "RELATED_TO",
+      "object": "Dharana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Viveka",
+      "relation": "RELATED_TO",
+      "object": "Buddhi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Rasayana",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Ojas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Rasayana",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Ayushya",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Rasayana",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Balya",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Rasayana",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Vayasthapana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Ojovardhana",
+      "relation": "RELATED_TO",
+      "object": "Ojas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Pushtikara",
+      "relation": "SUPPORTS",
+      "object": "Ojas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Brahmi",
+      "relation": "TYPE_OF",
+      "object": "Medhya Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Mandukaparni",
+      "relation": "TYPE_OF",
+      "object": "Medhya Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Shankhapushpi",
+      "relation": "TYPE_OF",
+      "object": "Medhya Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Guduchi",
+      "relation": "TYPE_OF",
+      "object": "Medhya Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Yashtimadhu",
+      "relation": "TYPE_OF",
+      "object": "Medhya Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Vacha",
+      "relation": "TYPE_OF",
+      "object": "Medhya Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Ashwagandha",
+      "relation": "TYPE_OF",
+      "object": "Rasayana",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Brahmi",
+      "relation": "ENHANCES",
+      "object": "Smriti",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Brahmi",
+      "relation": "ENHANCES",
+      "object": "Medha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Shankhapushpi",
+      "relation": "ENHANCES",
+      "object": "Medha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Shankhapushpi",
+      "relation": "ENHANCES",
+      "object": "Smriti",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Mandukaparni",
+      "relation": "ENHANCES",
+      "object": "Medha",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Mandukaparni",
+      "relation": "ENHANCES",
+      "object": "Buddhi",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Vacha",
+      "relation": "ENHANCES",
+      "object": "Smriti",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Yashtimadhu",
+      "relation": "SUPPORTS",
+      "object": "Ojas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Guduchi",
+      "relation": "SUPPORTS",
+      "object": "Ojas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Ashwagandha",
+      "relation": "ENHANCES",
+      "object": "Ojas",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Dravya",
+      "relation": "HAS_PROPERTY",
+      "object": "Rasa",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Dravya",
+      "relation": "HAS_PROPERTY",
+      "object": "Guna",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Dravya",
+      "relation": "HAS_PROPERTY",
+      "object": "Virya",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Dravya",
+      "relation": "HAS_PROPERTY",
+      "object": "Vipaka",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Dravya",
+      "relation": "HAS_PROPERTY",
+      "object": "Prabhava",
+      "source": "seed",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Kala",
+      "relation": "SYNONYM_OF",
+      "object": "Dhi",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Dhi",
+      "relation": "SYNONYM_OF",
+      "object": "Sabdadi",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Sabdadi",
+      "relation": "SYNONYM_OF",
+      "object": "Natya",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Kala",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Sabdadi",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Natya",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Vanausadhi",
+      "relation": "SYNONYM_OF",
+      "object": "Simhadi",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Simhadi",
+      "relation": "SYNONYM_OF",
+      "object": "Manusya",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Vanausadhi",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Simhadi",
+      "source": "rule",
+      "confidence": 1.0
+    },
+    {
+      "subject": "Medhya",
+      "relation": "ASSOCIATED_WITH",
+      "object": "Manusya",
+      "source": "rule",
+      "confidence": 1.0
+    }
+  ]
+}

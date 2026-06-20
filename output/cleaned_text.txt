@@ -1,0 +1,667 @@
+[p8][term_list][medhya] Clear writing. Second Kanda incomplete ending in the middle of the Vanausadhivarga.
+[p18][synonym_group][general] Svamin, the earliest available commentator on Amara, mentions the name of K&tya respectfully, citing him a number of times, e.g.
+[p20][synonym_group][general] ‘aa WIR:— apiqarehecot q eaqag HaHa’, Tikdsarvasva, III, p. 230. He quotes him 15 times.
+[p20][synonym_group][general] 2 FOR, Madras, VI, p. 253..
+[p21][synonym_group][general] 1V, Raghavan, ed. NCC, vol. I (rev.), p. 307.
+[p23][term_list][medhya] Amera Sinha’ as the earliest attempt to construct a* matic arrangement of ideas with a view to their expreégsio
+[p23][synonym_group][medhya] Kala , Dhi , Vac (21%), Sabdadi , Natya ,
+[p23][synonym_group][general] Patala , Bhogin , Naraka , and Vari. The second
+[p23][synonym_group][medhya] , Vanausadhi , Simhadi , Manusya ,
+[p24][synonym_group][general] , Samkirna , Nanartha , Avyaya and
+[p29][concept_desc][general] aaa: ara: Ha AML TAIT (p. 1)
+[p34][term_list][medhya] amatieg—ar faasaa afa arora af afsaraa wardkay: (V. 2)
+[p36][synonym_group][general] Strin mentions the reading Pdripdrsvaga-s (paripadrsvagah iti va pathah), though the MS.-K; notes another reading pari- parsoika-s (pariparsorka iti va pathah, fn., p. 71).
+[p41][term_list][medhya] (p.585) regarding mraksana he gives the additional information mraksanam secanam. Similarly he mentions cakyarthah trptyarthah
+[p41][synonym_group][general] * Brhat-dhd@turipdvali, ed. T. R. Krishnacharya, Kumbakonam, p. 400.
+[p45][term_list][medhya] from the Srautasitra of Apastamba (I. 1). He also mentions the grammarian Bhojaraja (p. 37). His eclectic mind includes a considerable acquaintance with Buddhist philosophy. He mentions the various temptations that stand in the way of the spiritual aspirant:
+[p54][term_list][medhya] ‘ mrjer vrddhih ? (VII. 2. 114). The word samkara (dust sweep-
+[p76][concept_desc][general] aavqaiiana: asaraltaa:
+[p76][concept_desc][general] raion: areagaiga:? etre: qatar: AAMT: THa eaAssey- a: & aesmrreaayaiaeg: fr: BY sears a equates:
+[p76][concept_desc][general] Wer: CR: Meg: AAW] AT: BE NR: ta Sls BAYT Waa’ (cf. AEl-
+[p77][concept_desc][general] CATAL: aia: AAAER: TRE st SATT fara: ait: aadaaane: aHegaGas By wy 7a qatead 2
+[p78][synonym_group][general] Pareto, gah enticed geiq, aeesa: sq, aq emigidtaee, wt mew aa fed, aa Coes @ernae:, wage, a eats: agadas Faq eens ecg—
+[p79][concept_desc][general] Reawar:? (2. 2.4) wag— aarti Termbraraa agar’
+[p80][synonym_group][general] Ky, Y, 8 De, Ky, K,, K, omit,
+[p80][concept_desc][general] TaN: ea: Gt ita oma aa Feo Asa aramaistaq U4 UI
+[p80][synonym_group][general] : Raesqay G, Ds. * Bi, Be, C, Dy add aq. 2 De, We add ee. tasiafe Dy, Wi, Y. > W, omits; Sa Di. °C adds
+[p81][synonym_group][general] ‘sea afeea’. ’ gdlat Be, C, Di, We. = Saft Bi, C, Dy, Ke, We.
+[p81][concept_desc][general] ewan: guarafataaan fatwa: tl 9 i
+[p82][synonym_group][general] LY omits. 27, Ki, Ky, Wy, omit. 3 dey ear: aoa:
+[p82][synonym_group][general] U, Ws. 7 Ds, Ki, Ky, Kg add aafa, 8 dfa B,, C. 9B, T add safe. 10 Sq: Wy. 11 fuq: B, C.
+[p82][synonym_group][general] 1 sear ay Ds, Ws. 2 Ky, K, add Tara;; D,, Kg, Wi add srfea: . Sawaal K,, T; nenraae Dp. * ay D., Ky, Ks, Wy.
+[p82][synonym_group][general] > ust: Be, De, Ke, Wi. °W, omits; K,, Ks add ‘z aft aay’.
+[p82][synonym_group][general] “aia: aca gata: B,, Y. Seda ata Bo, D,, I, Ke, Wy.
+[p83][synonym_group][general] 9% De, I, Ky, Ke, We. 10 sfefa D., I, W3. Il 3 gat: A, T;
+[p83][concept_desc][general] afegun: aaa SAINT STTATAT!
+[p83][concept_desc][general] HIATT: ys Tearwaaera: 7 ee? agora feared arate: 1‘ ar aot sea? ah: Caron Aaa ae 1 het gage ar ‘aa "aaa see
+[p83][synonym_group][general] D,, Ke, W4. Sata amr: YY. 6D, Ki, We, ¥ add flap: .
+[p84][synonym_group][general] TW, omits. 2 am: Wi. 3 Bo, We omit. 4 Bs, C, Dy,
+[p84][synonym_group][general] i cafeq Dy, Ds, Wi. te By, C, Di, Ky, Wi add wa UTA: ° 38 Bi,
+[p85][synonym_group][general] omit Yard. area; Ds, Ke, Y. Sama: aka Rasa B..
+[p85][synonym_group][general] Bi, C, T. 10 Dy adds ‘Tas ARNT:- 1 gafa Dy, Wi; aaa
+[p85][synonym_group][general] K,, Ka; aaa: Bo, C, We; aa:earkot; Ky. 12 fagiq Bo.
+[p85][synonym_group][general] 13 Sqaqr A, Di; taleaararf Bi, Be, C.
+[p86][concept_desc][general] GAR: Bat Tal TAIT MATa:
+[p86][synonym_group][general] Hal: WaAAt: Bs. 7 Sat; Kg; SAMA Bo, Di, We. 8 ut; K;, Wo;
+[p86][synonym_group][general] AA SIAM BID AAS: AL AIT ar D1, Ky, Kg, Wi.
+[p86][synonym_group][general] (.) sofia s—'Ret ag: Red ad, “aRereigek, waa, “ora: aaa! ve? after ae a: weiter:
+[p87][synonym_group][general] A, Bi, C, T. 8 °atfza°? Bi, De: K5, Wi. 9 cormfe? Bi, C, Ks, Wo.-
+[p87][synonym_group][general] 10 arq? Be, C, Ky, Ks, W1. Llagqadd adie We; awHRled: Dr.
+[p87][synonym_group][general] 12B,, CO, We omit aM. 18D, adds ferale; ward: Dy. 14 Dy, adds agaarni aaatq. l aray aafastey Bo, C.
+[p87][synonym_group][general] 1 gag Bs, De; A, Ki, Kgaddfae:. ® San oad ae &: ysiea: C..
+[p87][synonym_group][general] Saal Waa: Ki, Ks, U; waawamaaet We; maz! Bi, Be, C.
+[p88][synonym_group][general] Ka, Ks. 9A, Ki, Wi omit a... £f&. 6 auf B,.
+[p88][synonym_group][general] “aI gid Be, C. "Bi, De, Ke, Ks, Wy add fae af fearar.
+[p89][concept_desc][general] fasgaizan: Rey FResl faszsrat:
+[p89][synonym_group][general] Dy, Wi, Y. 7 cama Y. 8B, C, Di, Ki, Ks, Wi add ae.
+[p89][concept_desc][general] Sort: qustiaral weal Tes eaTS:
+[p89][concept_desc][general] flareatissga: aie freaneat Taraa: tl k% ge TACHI: Laerrare:
+[p90][concept_desc][general] TES: TRSAT: TET ara? ae a: Harat: a ara eae: ger a: saga’ Saget ar’ ager: amg vas? oteredtie arety fasqa® age aaal Gal sea a: Heaeaa: car rsa wah
+[p90][concept_desc][general] Bae: as Tat arsa Fea’? ? U1 29 I
+[p90][synonym_group][general] 1 RAL Bo, Dy, Ko, Wi, Y; aaa A, CG, T. 2 Dap, K; add ame;
+[p90][synonym_group][general] 6 eT =qd: Hed: D1, Ks, Ks, Wi, Y. ’ Ks adds a1. 8 Wi; ¥ omit. 9W1 omits. 10K,, Wi, Y omit.
+[p90][concept_desc][general] BRAS: Te ToT wer a RATT: eA AST aeT : Ear:
+[p90][synonym_group][general] 'Ke, Wi, ¥ omit; sasrad C; saad: Bi, B,, C, K5; zegaeaay qq C. = 2 apeat Ky. °K, adds Gye ager Cc. = 4 arg Da;
+[p90][synonym_group][general] Bs, C. 8 C, De, Ky, Ks add ‘ma qamfeq.
+[p90][concept_desc][general] qaataraa: sift: fret: gedbera:
+[p91][synonym_group][general] 1W, omits; geil wet Ky; yasaral sqnet Bo, Ki, Ks, K;, Wi.
+[p91][synonym_group][general] K., Wi; We omits rq. Saqq Ky, Kg; wanaeceq oefara: C.
+[p91][concept_desc][general] TITTITA: ° Haaren Aad sss we a: sawasswa:
+[p91][synonym_group][general] 2 TE Woe. S aroma; Di; Wy omits. 4 «fae HR? Be, C, Dy, U, Wo.
+[p92][concept_desc][general] RAMSTA: Cat Rey gaan ll aoa AR: TUE: hea
+[p92][synonym_group][general] * Bi, Di, I, Ki, Ke, Wi, ¥ add aaa wa:(?) 2A oqsaz By, C, Di,
+[p92][synonym_group][general] I, Ky, Kg, Wo. 32%: Dy, *Bi, Ko, We add daz. 5 Ks adds ae. ° Ke adds e9ffaqut. = 7 Dy, Ky add aat af 5 7z:, WealtoSedaw
+[p92][concept_desc][general] Taatiaa:? cart! 1 ‘@hramer gad aer dads eaq’” sft Asad
+[p93][concept_desc][general] rativaatast: HRBAyGTaSAT: ll Xe ll
+[p93][concept_desc][general] Gases: ASAT ISAM ataascaar a BRA: TE: AA A: HET: 1 TY ae woata Tans a eae erg ser a: TAF: arraA Baa BA:
+[p93][synonym_group][general] OpeaTaaeay Ra- Ul liagaal: A, Bo, Ke, Y. 7 aq Arad Di, I, Ki, U, Wi. 3 afy C, Di,
+[p93][synonym_group][general] aschaa za: C, Di, Ks, U, Wi. #aa ama: C; aqadiig Ks, Wi;
+[p93][synonym_group][general] ‘eq gyaleaai:’ W3. 9 atfet Bi, K;. 10 Bs, G add ak. 11 ¢ adds #@aftzer. 12 wraga Sf wT: Bi, Bo; ‘ST WUT’ Bo, C, Ks, We, Y
+[p93][synonym_group][general] 13 srqueaq K,, Ky. TM“U adds aaria:. 5 sf: A, Bi, Ki, Wi; Sa: U,
+[p93][synonym_group][general] We. 16 K, adds Wa. 17 azqal a vada Kg. 18 vast A, Ko, Ks,
+[p93][synonym_group][general] T. 19 giHal Aqat Bi, C, Di, We, Y. 20 ea? Be, Dz, Ks, Ks, Wi-
+[p94][concept_desc][general] saa: taeMe_ Sara: ) Ro
+[p94][concept_desc][general] Beat: TTS ar HAST Ale hrar
+[p95][synonym_group][general] * Be, C add oat axa aeadifa ar. Sazqq Wi, ¥. ‘ ® Ds, Ky add
+[p95][synonym_group][general] AAAS FT. 7 W, omits 6 lines. 8 K,, Ks, Ks, U, Y omit.
+[p95][synonym_group][general] 1 Tapa Ba, C, Di, Ky, U,; Wi. 2 fae? Be, Ds, Ra, Wi. 3 ea: qaaez: A, Ds, Ke. 4 wha Be, C, Ke; gzqi Ki, Kg. 5 q a oye: C.
+[p95][synonym_group][general] 6aq ae 2a sqwar Bs, C. "Reyaeeaaa Ky 8 seg: eae: TA ya; Bo, C, Di, Ky, Ke, U, Wi. 9 ala K;, Wi.
+[p96][synonym_group][general] 4B, C, Ks, We add ‘eairal wa’. Sama weaafa armada Bo, C.
+[p96][concept_desc][general] BIT: Tare: fara: WET AAT:
+[p97][concept_desc][general] TAT: eeneaearearre: 23 qa: ausivaiidtan fritat we:
+[p97][concept_desc][general] aga: Ahaarar: Tare wamtas Ul 8
+[p97][concept_desc][general] THETATISHIANG: BALAAT TIVAT:
+[p97][concept_desc][general] qari: Ysa a AAT: rave: Fat gaat watt AT
+[p98][concept_desc][general] ayer: ets? gee ar) ag aaa east ay
+[p98][synonym_group][general] C, Di, 1, Ky, Ks. 438 gat: ‘ga tae’ A, Bi, C, Di, Ky, Wi; zea a4, “9 fearang’ Ki, Wi; Bs, Ki, Ko, Ks, U, We, ¥ add $8 Sara. 8 C,
+[p98][synonym_group][general] De, I, Ky, Ks, ¥ add gq. 6 at@qt A, W2. 7M: STAT: Wat: Ke, We;
+[p98][synonym_group][general] Ks, U, Wi, Y. 7° fir ara Stet aac ar, ‘afte SH? Bo, C, Di, Ke: C adds agg dea safraeafagraarg Tae:. 11Y adds guadiia. 12 ¢,
+[p98][synonym_group][general] I, K, add faq’. 13 GIS; Wes HSH; A; Ahenvs. Ky. 14 B,, C add fear. 15 gray Bo. *S ATA: TAR: VAY TT, TA, TRANSL ATA: aural gaa CO. = 7 ean} Bo, Ds, Kz, Wi. 18 TSU (By omits aCeTEA) wat 4eq Bo, C, Di; gt za? W,. 19 Ki, Ky omit. 20 D, adds dara;
+[p98][synonym_group][general] HE C,Di,Ks,U. 4 °aeraal edi aftenearedifa Bp, C. 25 fatto:
+[p99][concept_desc][general] TEleE: HRB: BET TAT: I afegear’ aziz aarqaisreraa: WW? aaa Ti 32-4 WI
+[p100][concept_desc][general] TAIT: Tye ATTTaT qTehleaTeTle_ ATAT: 3% I
+[p100][concept_desc][general] OUT: THIET: Sauer deaararia arfa afaearttfa araz: at aa?
+[p100][concept_desc][general] AAT: Tale Ta Heal Aes Gaal weeIL sae Galea Haid
+[p100][synonym_group][general] Ks, Wi. 3 °aerfsuttfa = De, I, Ka; derivations of All, etc. omitted in.
+[p100][synonym_group][general] Ds, Ka, Wi 2 Y.
+[p101][concept_desc][general] Sofa: GPRFAMNBKeT aes aswasA: Ke.
+[p101][concept_desc][general] mia: Tae TR Aiea: 1°
+[p102][synonym_group][general] Hae Cc. 3 BIN Ky, T; aad Ws. a Sq Da, Keo, Ks, U, Y.
+[p102][synonym_group][general] Ba, C, 10 sept Diy; Ky, Wi, Y omit aq... af. 1 qt Ks;I adds ‘ms Be Tat’. 12W, adds que}. 13 QaqaqZ Woe.
+[p102][synonym_group][general] Ta: Ky, Ks, Ks; at Bi, C, We, Y. 2 Bi, C, Ks, Wo add ‘ use: wRaraga’. —- Saaftoanrd g Rae We, Y; waar area; Baraaaeaeeded arena dna Je Paraeet gel geeq sefeendeeq weal flee saa
+[p103][concept_desc][general] Tatas Hess VATA ATE: Yo I qigeaeaanme fare: fafaarea:
+[p103][concept_desc][general] TUNG: MPRA? HAT! RIISITT! tl V2 I
+[p103][concept_desc][general] HEM: WITT We Re WA VE ATT TT TST:
+[p103][synonym_group][general] 4afyua I, Ki, Wi. 5 Bo, C add aaag. 6 vq: Dy, I, Ks, Wi: faradua: K,. 7 Bs, C, Di, I add earmdiia. 8 gon Ky, Ks, We.
+[p104][concept_desc][general] TSAI: BATA: FEA: FET 1 V2 UI fSeqvara: am: qaasgieaerh:
+[p104][concept_desc][general] ENT: AB: GATT: Tea ZETA Se aa “ga ae wa wea aan TI @: aay: a: ater oe: Rae) ge aaa se ert Ae geal a am as waa ars war fray
+[p105][concept_desc][general] sara: fa Hear2’4 wares SeRaTATTA ees lage zearerszifeaq zy sé aa aifa araenaddifa ea: <z Tat?
+[p105][synonym_group][general] apPAaeate -Waras; C. 2am Ki, Ka, Ks, Wi; aart ead Sfa Ae:
+[p105][synonym_group][general] Bi, Di, Wi; ae C; fe aqagemed als: We. 5 fafa oe Pat afer
+[p105][synonym_group][general] Deas ar Bo, C, D.; wee Wes aT Wo. 6< aq uaa: AAT Dal: sat: ast a aa argaata: dser aah fasedifae wDarete: Bo, C. 7 qzof at Bi, C, Dy, Wi, Y. 8C, D,, I add ‘f& ay’. 9 qdarg C.
+[p105][synonym_group][general] 10 Seftatt? A, Bi, C, Ke, Ks T. ast Bi, C,We erie
+[p105][synonym_group][general] Bi, C, Ks, U, Ws. Barqueqe Bs, C. 4 aergeeqT Bo, C.
+[p105][synonym_group][general] 15 adds ftafta. 16 «Sefer? A, B, C, T, Wi. 2 ehamf: A: sara; C. 18 sant a qadifa aah: A, De, Ki, Wi. 19 Greaaati
+[p105][synonym_group][general] “4K., Ks, We add Sa 4dr @.
+[p106][concept_desc][general] Geen: Fatarkaeaceacay sie:
+[p106][concept_desc][general] aaaite: tae: aeay ararerarsan: tl vo
+[p107][concept_desc][general] eal: TGA: WaPIsa: segaamila ul gal Vert: area sett seat SIgate at we: ase sist weedie ao CaaS Taet?
+[p107][synonym_group][general] 1afq Be, C, Ds, Ke, Wi. 2arqq C, De, Ks, Wi, ¥; 3 3
+[p107][synonym_group][general] D:. 6Bi, CG, T omit. 7A, Bo, Gadd 3B. 8 carga? A, Y.
+[p107][synonym_group][general] Hea; WHA: Bs AarAaal Ky. 16 a amas Jaq aaaq, OA aq Sat A Tua esa: Ta Sa: Wea; Be, C. 17 HEH: Be, C.
+[p107][synonym_group][general] qagRNE: MA saa’, Sag sw’? C, Ky 1,U. sa B, Ki, Ky.
+[p108][concept_desc][general] fsarara: Ufa aartle: seratfe: hate: ° t signa erat:1 draw d@e cr) ‘gers
+[p109][concept_desc][general] TTT: aTaroncaearearaa: — R&
+[p109][synonym_group][general] (.) aeaieeeitte—areq, ti ARS TET aah? fate Wet erag e ea Bat aa eats Guat cite LEA cargaI RateFeat sate we qT? We ara Bae ea a = near
+[p109][synonym_group][general] ida faa eauhie Fe: ‘ tey fearary’ Di. 5 zqnar; alata; Di.
+[p109][synonym_group][general] $ Fem By, C, Di, Ki, Ks, Wi, Y: 7 qT: oIaa; PARI Sra: Di;
+[p110][synonym_group][general] Bs, C add ‘weftargura’. 9 Samat? A, Ky, Wi. 9 afty gest ee qleactia ‘ afe sierest’ Dy. 10 gqqrzer Di.
+[p113][synonym_group][general] ‘at greuta’; A, Deadd Wa wd. = OAR We. geet aT ada ofa ‘or zat’ D,, U. 11K,, Kgaddaira;. 12D, adds ‘aq aa’.
+[p113][synonym_group][general] Be, C, Dy, Ks. 7 Dy adds greater. °8 aq; adie sag, ‘at da’, alae d, Hew ad a alraq C.
+[p114][concept_desc][general] Sid: Aaa WI: AST: ASTIN ae: asaras: swan H saad sate: ‘sae dat’) stele qeartenfs ale: 1 ‘ale ae ud) aed) gat: eigen: laead aft! ara) fort qaren’
+[p114][concept_desc][general] VATA: AAT Sea Aasar? Relasater SER CAT E
+[p115][concept_desc][general] ada: fqrta: aaa Taw
+[p115][synonym_group][general] 5D, adds arat:. Saat: Di. =“atfora: Di. 8 aateat C; ‘Uy
+[p115][synonym_group][general] D2, I, Ki, Ke, Ks, U; sataatnt agar a eer Rata BIG: ‘HS Wee- aera’? Di; Awe gaa; C. 12 greqvereqeq Ot; Dis 6 F aR’ I.
+[p115][concept_desc][general] TTA: FUNT: HOTA MEATSISAT ATAT! tl Fe tl
+[p115][concept_desc][general] aIGared: qayaal a + zar aTdtTa s a agas y2 STARS: Eeccacce
+[p116][concept_desc][general] Saad: Sat waar’ ceadsenra Tete zar22 ‘ zat awa? Shka- aratter? ll g2—2 1
+[p116][synonym_group][general] aCATaIA:, <r fearany’ C. 5 Ceara Y, 6 aonfa Y. 7 fereealet feaeciia tenor Uereatar Dy. Saitafa ara dtd wf ar Wi; arqa
+[p116][synonym_group][general] De, Ki, Ke, Y.
+[p117][synonym_group][general] K,, Ks; D: adds @Ai:- 12 gq staan ar sala a fraed gid C; Di,
+[p117][synonym_group][general] U, We; Bi, C add aeafe. 17 gpaqrpuat We, Y. 18 grea® Bi, Ks, We.
+[p118][concept_desc][general] STOISTIa: AATATAASATAY aTTT! 1 BY lgf& or atsara: warat arfases
+[p118][concept_desc][general] SATA: HVSIF LITT SATA: WAAAITA: 11 BS
+[p118][concept_desc][general] BRT: Ud Gey BAT SATTAABvSareaTaAAIAA EY—4 II
+[p118][concept_desc][general] Lard: Baraat: Sl At. ? ad: SRST: TT Ay. 8 fgaaié? Ay.
+[p119][synonym_group][general] Ds, Wi *%atar ag add U; acai A. 6 mat Ks; C, Ks, ¥ add
+[p120][synonym_group][general] ‘3Bo, De, I, T add fatia:; sane? Di. 4 yadtft A, C. 5K.
+[p120][synonym_group][general] D,, Wr; art Bet saa C. 4 ART aa afea_aq D1; U omits 6 lines. > fad; C; fate: We; CG adds eyqare. 6 ga@ A, C, Ky, Ko.
+[p120][synonym_group][general] “Tateeat ecieal: A, De, Ki, Wi; aftraearenea eeaeecded F gear qed 3
+[p120][synonym_group][general] wast graeast geyx C. Ky, Ks, Ks, Wi, Y add aft ag
+[p121][concept_desc][general] SHOT: THA AT: AAT: FAME tl Ec-9 UL
+[p121][concept_desc][general] Tarts: ReySer:Fate: rqatsqat ST:
+[p121][synonym_group][general] Wi; ara: Dy. 5zafa Bo, C; aaa aragia A, Ka, T. 6 queq Ef
+[p121][synonym_group][general] 9K;, We, Y omit U&. logeqa geqa a, ‘aa garam’ Di.
+[p121][synonym_group][general] 1 feaqut A, De, Ki, Ke, U, We. 12 Bragtaarariea A. 13 Su(eE
+[p122][concept_desc][general] Sale: TuaAeHT Gaara J UTHT ll 92
+[p122][synonym_group][general] TRUTH SSS WIN aT? We, Ys zfe at arg; U. 9a, ST BIAa:, quqazalfaay: C. 10 yeaa fsrafata U. 11 oyeqa? A, Bi, Ke, T.
+[p125][synonym_group][general] Ky, We; U, Y add— eas arash qUel earaasaa y arasede? FT Fares =a Aefasz
+[p125][concept_desc][general] TISTATATATSICAT: TASTANT STAT Ue sat fadiat core Baa g fry fevaa
+[p126][synonym_group][general] (f.) =z gf—sx, af:, frat, Ska:, veo, wea, Eat,
+[p127][concept_desc][general] UUWaag: VST Aaa: RatSAA ! 2 I qeqaea: BIdate: GBrdiner fevers:
+[p127][synonym_group][general] legaff adx sra:° Bi, Ke, K;, U, Wi, Y- 2 gqeaeAal FaeaT
+[p127][concept_desc][general] PRIMSATHASI_SaAIaT: BAA Mt ¥ lt aaa] WwMeedt VTEAl AAAaaal
+[p127][synonym_group][general] Lapaot ar qr:. «2 erat ea ara aa CC. 3K,, U, ¥ add aS3q. ‘4eqqeet We. % sea Dy, Ki, Ke, Wi, Y. ° Hae Y.
+[p127][synonym_group][general] 7 go? U. 8 syuat azar: A, Bi, T; Bardi Dy, Ka, W1. ° aeafra
+[p127][synonym_group][general] G, Y. 107 U, Wi, ¥ add taraarfe®. 4 ail? Bi, Ks, Y.
+[p129][synonym_group][general] 3 garfaatar: C. 4 erat A, B,, Ki, Wi. 5 vara? C, I, Ks, Wi, ¥-
+[p130][synonym_group][general] BNI: AKA; Tard: Aa zaes:, ay vadife Bi, C, De, Ks. 7 @ AeaTaeT aft Be, De, Ks. 8A, T, Wy add °a<ate. 9 apafadifa a aes,
+[p131][concept_desc][general] Serreregqra: TRIGA SATAY Ul alee fea afta : efter ay
+[p132][synonym_group][general] * gag: SMT: D., Ky, VY. 2 af A,T, Wi. 3 aq? Ky, Wy,
+[p132][synonym_group][general] Seite ORT, * SNE aT: ?; ara aa dare, ‘FG Tat *, MrT; Sarat gid Ws ot afaq gate, quenafsara Bs, C. > Ga? Ks, We, Y: aa.
+[p133][concept_desc][general] FEAT: TSVT TAHA: ATTAT:
+[p133][synonym_group][general] FLO ’, 12 Ds, Ka, Ks add. 13 De, Ka, Ks, Wi add.
+[p134][concept_desc][general] FIGS: MIG: TARATANTE I? watt TUL 2-72 I
+[p134][synonym_group][general] TESA 11 24 I lgeai*a: U. Poured C. S gerqaite°? By, Dz, Ks, U.
+[p136][synonym_group][general] 1 gait Bi, Kz, We, Y. 2 saat Brat waafe swarae sf: «apy ale? C; safe De, I, Ks. 8 Rated I, Y. 4B, C add anfear.
+[p136][synonym_group][general] garada (asafafaxist gf C) B,, C, Dy, I, U, Wi, Y. & Wy adds ada,
+[p136][concept_desc][general] Guz: alas: aftal Ba: aareaear: 1 ee 1
+[p137][concept_desc][general] STeroeareareanra: 63 ar ais: sae mat? Brave cersttar: erferc: ‘ rer aera’ weaia ae (Se Ba’) seater geraaala TaUe®: She Setter saw: Sr eA’ arta SA ata: alia asa ar 1 hasat
+[p137][synonym_group][general] A, Dz, Ki; By omits 2 lines, 4 mae “aad at A, W1. 5 walt aaeq Hofa, ‘He WIT? Bo, C, We, Y; ‘aS Alea’ A, 6 C, D, add
+[p137][synonym_group][general] Les Dy, Ka, Ks, U, ¥. 7 By omits °@FA°; SAR? We. Sale
+[p137][synonym_group][general] VAT Bi C, I, Ks, Y, + alta A, T. 5 Dy, Ky,Ks,U, Wi add qari.
+[p138][synonym_group][general] apart, acon, Ha: VE agg, Vleet, anki Plas, ost, graahg, qe, apawea: feat seat a, gahacneral, ge:, Ria, aie:
+[p138][synonym_group][general] PI2 SA, Aco; MA n3, TRA, VnSS , WS° AG* TH], FacTTS, SALTS, HaT:
+[p138][synonym_group][general] UH, Ta, TaTE SN, GNEIs Bg, Farug7s 3, tadt situ eragbaat arate URS l caqaala Bs.
+[p139][synonym_group][general] Saqq Bo, C. 4eqfa Y; aaa ame wife B, C, Ks, U, W2.
+[p139][concept_desc][general] ARITA: SAH Be A TMS : deEATcaT SaSmSyUT’ PaRTARTT-
+[p139][synonym_group][general] RAG, F sea, wast a ‘TS AM’, FE mai? Be, C. = afta?
+[p139][synonym_group][general] By, I, Ks, U, We. 6 era? A, Ky, I.
+[p140][concept_desc][general] AULT: [serraoE:
+[p140][synonym_group][general] 1 Hdl; Bs, Ba; qisarea <q. 2 ATH: GTS; Ay.
+[p140][concept_desc][general] geri: Bway wtetiafsrat We:
+[p140][synonym_group][general] C,W., Y. faa VY. > quar meals ascafe ge, gene sahara qe; Ba, C. 6 saa ef I, Ks, U.
+[p140][concept_desc][general] ARH: Rat star stfearat wetwTaA: Wu
+[p141][synonym_group][general] 4B, C, D, add earfa; ‘u ara’ C, I. 5 3a: Ds, Ke, Ks; Rd U.
+[p141][synonym_group][general] A, B,, T. 10 sreqzq? I, Y. 11 CG adds ‘wat STEATA’. 12 tfe- arasity C. 13 *ye° Bo, C, Dy, 1, We; AHRR Ka, Y.
+[p141][synonym_group][general] 4st C: De, U add g:, AU“SMTga: A: 5 gaat’ A, B,, Kg; C adds SS:, @H:, HVABal FAA sre:, He, HAI:, SAHIN TA: SANTA: ayaa afta. aa: HRA: Gfeqa De, Ki, Kz, Wi. 9 7 C adds gc TAT: [Sea
+[p142][synonym_group][general] Taqafe. 8 ait Ba, C. 9 Ks, Wi add equafe. OB, De, Ky, Ks add the two words. = 1) Wa lsaq; HAA araar: C; Ag: Pree aay K,.
+[p142][concept_desc][general] TEENS: T Tapas:7 GI TIL RE UI
+[p142][synonym_group][general] Ks; sere? Bi, Dy, Ks, Ws, Y.
+[p143][concept_desc][general] Maes: AESigaIa: Alsat cs:
+[p143][concept_desc][general] Talaatfaa: BAA THAT TT:
+[p144][synonym_group][general] Ba, C. °Y adds aafacarfath.: 10 aed: C. 11 faq; C, We.
+[p144][concept_desc][general] ast: feser quezqsian: wifeasat: 1 Be arvaqarsenisag: Hyeaferssiasg:
+[p144][concept_desc][general] Tat: WA ada att Titaedan:® axert ga: Ara: Seranquifsenee
+[p145][synonym_group][general] 3 qian sla at ate: Ks. Seer Di, Ki, We = semana We
+[p145][concept_desc][general] ata: ea AHR: ehtyeareifata: feerara 0 28
+[p146][synonym_group][general] 4 data B,, Ks, Y. °Bi, Ks add ear. 6 ais: A, Bi, Ks, Wi.
+[p146][synonym_group][general] gaat U. S arazofiat: De, I, Ks, Wi. ° atta Bi; Dy, I, U add
+[p146][synonym_group][general] * Di, I add ‘ur eat’. "wat A, Bi, 1, Ky. «8 siraizeaestifes,
+[p146][synonym_group][general] ‘aa tal’ Y. «eq dal’ Be, Di, Ka, Wi, Y. "EAT lad Be.
+[p146][synonym_group][general] ® dAnarataifa Bo, I, Ks, Wi, ¥.
+[p147][synonym_group][general] 1 garam, Bi, Ks, Y. 2 ufaitt Gleeaq Bo, K;, U, ¥. 3 Dy adds aarat &. 4Qaq A, Bi, T, Ki. Sages aa glad, alatr fifeean I, U, We. 6 B, Dz, I, Ky, Ke, Ks omit weg.
+[p148][synonym_group][general] 6 aam I, U. "qae A, Y. S afeatt: Ki, Wa, Y. aaa feqaatarfy Bo, Ks, Wo.
+[p149][synonym_group][general] 5B, Ks, W., Y add sazaafa. Sauig Wi. 7 By adds aarqafa; ag waa aarqwadifa feared: Bo. 8 corent fafa a dear, salaaraaarnre: Y.
+[p149][concept_desc][general] CwHaEttMs: GPAre:ea a aTa sU TPTeai lealiesmm eiaa’ aPreattt S7a Rearq atid G aflaackt ula: 1° tr ara? sat arar Caran: ar Barat fears aor . re aueti ‘ar am’. aaa agit ani ‘fa aa’ aaa erase angeareeat aataat awar wad Efe att (rg ait?
+[p150][synonym_group][general] 1 greta: Bi, Di, I, Ks, We. 2 ads; We. 3 acraeat Rta zfa frar ‘ate aa? Praca feet edser eft ar fra ‘ere face’
+[p150][synonym_group][general] Bo; Dy, Wz add ‘at ATH’. 4 gem: W1. 5 aeqt Dy. 6 aaa
+[p150][synonym_group][general] at aifa:, a fad at aer aq fad aa:, aa Aa ar aera fase Sia Paar at Be. 8 waatd Bi, Di, I, Ks, We.
+[p150][synonym_group][general] 3 satel, srntedistafer By, I, Ks, We; Ks omits 4 lines. 4 33qTe?°
+[p150][synonym_group][general] Dy, 1, We; SaaarelguRanaa Wi.
+[p151][synonym_group][general] 1Bi, We add aqz: . 2°W. omits. 3 grisg; Bi. 4B, adds
+[p151][synonym_group][general] 6 qequfa? A, Bi, D2, Wi. 7 gato ad? A.
+[p152][synonym_group][general] 1 eSarsy areoTasay; Dy. *afticktd W.; witaag A. > gore aala Fazal eaftfa ar Bi, Ks, We, Y. * geqe? A. > Bz, Dy add aee:; ate Afar Actas 1. S quot gor Wy. 7T adds aay.
+[p152][synonym_group][general] 2D,, 1, Wi add ‘qe fara’. 3 asx Tay: Bo. 4B,, Di, Y add
+[p153][concept_desc][general] Maga: Saas BIT: TEATa zeal afer J 8) seal aad ‘erecta:
+[p153][concept_desc][general] ARAN: ST BA °oritaaa saa: Sgatkgaruai “gufdare: carat
+[p154][synonym_group][general] *B, adds audigy. oaat weidifa arB,. 6 °ararat D., K2, Ks, Wi.
+[p156][concept_desc][general] GUT: Ma GaAs Ger! aa: se wT’ Vanesa
+[p156][synonym_group][general] Ky, Ke, Wi omit °fitz:°. 13D, W, add cara’.
+[p156][concept_desc][general] ASTANA: ANNI —A A: asta IL 2 UI
+[p156][synonym_group][general] 1 aefe arg: U. 2 ysqara® By, Di, Ks, Wo. 3 aq: seahealatt
+[p156][synonym_group][general] Di, Ks; ait HHL B,. = 4aeaamayq Bi, U,W.. 5 HeYatycar Torar Bp.
+[p157][synonym_group][general] 1A, Bs, Di, 1, W2 add care’. «9 * Agger WaT Fast B.. «= FSA:
+[p157][synonym_group][general] Ks, U,W. * qfrar Ba, Ds. ? wxTerge (ata U) wrqaet B2, Ks.
+[p158][synonym_group][general] 6D, Ki, Ks, Ks, U, Wi add °ara’. 7B, We. omit aed:-
+[p158][synonym_group][general] Syaqigal sags Dy. Saeagur oatotardt areét Bi, Di, I, Ks.
+[p158][concept_desc][general] ease: BE: aaa Tat aT srrast mea’ ‘ada qe: acer Ramat aardeera Bie: ake wz’)
+[p159][synonym_group][general] 4 sflald By, Ks, We.
+[p160][synonym_group][general] — BPTPATLIL RR t cqqTaca A, Be. 25am; U. 3 afar A, Bi, Wa; BTHTA Bz..
+[p160][concept_desc][general] CSaAR: AGS RIT That CUNT wearat walt We TIIaT feed arg curser Sata: UR UI
+[p161][synonym_group][general] 1K, omits 3 lines. 2 qyaeq Bi, K;, Wa, ¥. 3 fia I, Ki.
+[p162][synonym_group][general] 7D, adds ‘yaaa’. 8nad aay B. Paar’ D: = HgA
+[p162][concept_desc][general] grasa: ‘ge ated Fea Gat aa: Telrad’ Fae: maly-
+[p162][synonym_group][general] (%.) aaBet—aatear, wafaar, THe vet, wg, TET, eat sretarecetia t eparatet aera ETA? AT: TNT TRI
+[p163][synonym_group][general] Ssaa sqe faate?d Sadsaa fare. ” ort Quel "guaprastada- aay? UL W—<c UI lfceaaaaraafa Wi. =? arenas Gaea) ara: MOS BAT att; Bi, Ks, We, Y; THe: gaed) TH Fad: TeTass ze fraeare: Wi;
+[p163][synonym_group][general] pata: caer Hartafe We. 31, W, add ‘ Zor mat’. 4 asta aaanaa uit Bi, Ks, Y. § unnsarefiia ar Bi, Ks, U, Y. 6 aq sqaaq Di. = 7 Di, Ladd ‘gaspar: = 8 gene B,, «= 8 °Ra- fafirarat We.
+[p164][concept_desc][general] TAT: HISRSATA TUT: ATA THAT:
+[p164][concept_desc][general] fats: arfeatsrer ereaaRaa saTeT TAL ATT Ut
+[p165][synonym_group][general] 1 faTaAT Ky. 2 fang: Baa eq Y. alaaard Ki, Ka, Ks, Wi.
+[p166][synonym_group][general] 1 yaa; Sat Ds, Ki, Ko. 2A, Bi, T omit aa. 3 geqd Bi, Wo.
+[p166][synonym_group][general] 4 aq Bs, De, 1, Ky, Ke, Wi. Saad ar Be, De, Ki, Y. %afaatkara
+[p166][synonym_group][general] Bi, We. 7 #ecad Di, D,, We; Head A, By, T. 8 sand aatfaa aaa
+[p168][concept_desc][general] aaa: staat faaeraesrat
+[p169][concept_desc][general] aim: aacuansrnkeawearsag ( & aAstTatisasaiaaaareata: Rararg
+[p169][concept_desc][general] WaT: “ated cad’? wereaisvasaq® erga: acti eee qUaltet ll TRE aay FST age! fearaaa ete aeia ala: een: oat teidgigarire? Ul ¢ Il
+[p169][synonym_group][general] B., I, Ks; cafsta; A, Bi, Di. 10 W, adds aifmfarfa. 11 faeeadsaar By.
+[p169][concept_desc][general] Tha: ative gitar Sr —aTyT:
+[p170][concept_desc][general] TMA: HUST TalleRT AT ATI I Y—<
+[p170][synonym_group][general] l eqrea: oq fasaaecar=ar; Ax. 2 off ar Au, By. 3 ayat; Ay.
+[p170][concept_desc][general] SAC: STTSTAATA Ul Bela “aS SAT: BE Baa? Geraiecaaw Il
+[p173][concept_desc][general] WSUaATeveaasaeeAaTIVST: li 2 I aaa: fat wat awl TaATIsaA:
+[p174][concept_desc][general] areata: ‘ate aor? fareeatsieea: zara gare:1) ‘weTaP gal 4? 1 taoate awa we: ‘ae Pee A? saragsansehr
+[p174][concept_desc][general] TMS: . “wa aoa Retaegaeda Fae: aa ah sens’) wore Ut fae Re da Sar ge) mee ae) Soa
+[p174][synonym_group][general] TAs ATT: Sela HASH aa: aa geensactara ul ey bl lasfa Be, Di, Ks, U, We. 2 areata I, Ks, We, Y. 3 xara Y.
+[p174][synonym_group][general] *aaafe . . faettaafe Bs, Di, Wo, Y. °¢agq ae farfeqaay;°? B,, I, We;
+[p174][concept_desc][general] ASTHUTIN: ATM WET Il 2G It aaa: waa Heat Taya AewrVaieea
+[p176][concept_desc][general] Vela: ge aithosrg aale t Ag set: Ye—20
+[p177][concept_desc][general] TAAISTUSE: CUTS Westg aH:
+[p177][concept_desc][general] WEETABISINS: 3 Ber Rl aeqaearraitae ot rare CTT fast aa: Ba aa: eae ar ara pet AR
+[p178][synonym_group][general] Ae ear "qut—at SIS Ree WRU leer, areal a By D;, I, Ks, Wa; area W.. . *fearar i,
+[p178][synonym_group][general] Pt, ‘aq aa; Be; art? K5; ai? Wo. 5 vata wad gadtanie Ks,
+[p178][synonym_group][general] WsAATIANe By, Di, Ks, U, Y.
+[p178][concept_desc][general] tara: see WT leaiiiat Reagaecagern ara wet
+[p178][concept_desc][general] Saat: EET PUAAMVSTISAT
+[p179][concept_desc][general] RALAAe: aasaaa war wit) azarae i anata sai gH: ternal ll Head Wa RS RT Gal? La? aati aT
+[p179][concept_desc][general] usa: ISS AT Bea IV? gd gage i aaa ear: Vsqad wads so:
+[p179][synonym_group][general] 6< as get’ Di. ? ararfe I. 8 fa sari A, Bu, T. Wo, Y omit °#4°. 10 Rag Be. = 1 enrfeaorrie A, Bi, T, Wi. 2 ayaa
+[p179][synonym_group][general] (Hef K,) aadsta We Bs, Di, Y; ‘afi may? 1. 18 safes aur A, Bi, T.
+[p180][concept_desc][general] SlASIS: WIATAATATSAA: BT lV Ui
+[p180][synonym_group][general] 2< sq uff BY’ De, I, Ki, Ke, Ks, Y. 3 yu gay saat se WaT Bs.
+[p180][synonym_group][general] 4 °geafgag® Ks. 5 cafta° W2. 6 ardélad Di, Ki, U, Ws, Y.
+[p180][synonym_group][general] 7 gana: saaifa; sre: aual agi gd sarare: Be. 8 gureit: De, Ki, Wi.
+[p180][synonym_group][general] Wa; °asaat® Di, I, Ka, Ks, Y. 12 gueqdsda Ga eft We.
+[p182][synonym_group][general] 1B, adds a dar. «ss: 2 STAAa B,; ‘We Bae’ Be, Di. 3D, omits 4@4q; daaweaaqa By, K;, We, Y. 4 aq Wy. 5 agar’ Ks;
+[p184][synonym_group][general] Leq adit sazat B,, Di, I, Ks, Y. >< HL I’ By, Dy, I.
+[p184][concept_desc][general] SHAM: U To TIT: Ga Saas PA T— EST TL RetaTaTY
+[p184][concept_desc][general] AMAT: TTS AST? TATAATTT!
+[p185][synonym_group][general] S g a e t ae tg eaeatt?s r ye re r"afaagg STE aay *qeeeaasesae I 42 UI lasarad A, Bi, T. * sada a ailfa:, <9 Wat ° Bi, D;, Ks, We, Y
+[p185][synonym_group][general] 3 qagia Al WWe:, aAeae Wad, ‘A waqaa’? B., De, Y. 4 fiaeaa A, Di,
+[p185][concept_desc][general] BAMST: TTT SATU 22 Il
+[p186][synonym_group][general] Loria We. 2 wae Ks Wi. 3 afafa Be; Di, I add ‘ara sama alfa’. 4 gaafeiaaa A, Bi, T. 5 Be adds Heureya Fa
+[p186][synonym_group][general] WEN ; aITAaATG U. «= S aa: Seal Bo, T, We.
+[p187][concept_desc][general] 1Wq: Ay. 2 afara® Bs.
+[p188][synonym_group][general] HATH FART HAA TATA It AS Ul logata I, K., Ka; saadsaa U. 2< ay aR?’ Dy, I, Ki, U.
+[p191][synonym_group][general] 1A, adds wequangd2°. 2 Ai adds wa wa wa zfa. 3 A, adds.
+[p191][concept_desc][general] arorrar: Hfera aie: TAT RMNTST: f) 3
+[p191][concept_desc][general] THON: AYIA BTA: AHOMTHIsT: ors: Bara> qaded
+[p191][synonym_group][general] Liat anfe Pty, Pte. 2 Cadaray? I, Ki, Ke, U. 3 qTgTaat
+[p191][synonym_group][general] De, Ks, Wi. 4 sada ane Pt, Pts. Suwa U.
+[p192][concept_desc][general] HBCU: HIHearal arfsa sax
+[p192][synonym_group][general] “qaqa Pt,, Pte, 6B, adds ‘it WIA’.
+[p193][concept_desc][general] Waa: Soh aera? wag® aay Ha aT Cat ala ada TT? I
+[p193][synonym_group][general] I, Ki, U. 11 aad B,, Wo. 12 gaa TST: Bi, We.
+[p194][concept_desc][general] WRG: se: UL! WEG TRI) aca: we a! aR: ages: ac: aT aay wd aa: Fate aealeRT:
+[p195][synonym_group][general] 2am: ala: atsear sede asat zfe ar Aaaa wat: Bo, Di, K.; afe: aay ad:, cat: Y. 3 qga A, T, Wi. 4 qeqeqaag qaqa B,, Dy, I.
+[p195][synonym_group][general] 1B,, Di, Ks add ‘aq fe’. 2°afAg Bo. 3 aged Woe.
+[p195][synonym_group][general] 4 qreeateta xf a=aT: B,, Di; areeafiiid By, K;; We adds sirg;. > °xesTarar?
+[p196][concept_desc][general] BES: Ba Waa HS BAR a Sas asad? Heewes SALaA’ at: aHIE RIE THIAS BUT Desay eS wa: THT:
+[p196][concept_desc][general] ZINGHT: n gaMEkaeyae I ast ales ata aT TETST ai aqiea dat vada ne: Smeisa aera seeds: waWeaTHITy- aA UU
+[p196][synonym_group][general] Bi, Dg, Pte. 4 qesarfé A, Bi, T, Wi; ale wat:—
+[p197][concept_desc][general] MiaH: Weisel ara Hint dtorfarzay &
+[p197][synonym_group][general] Lagq D,, Wi; aafe A, B, T; aattst Pt.; ge aur aan ead, ‘ea fearmal;’ Ba, U. 2 seach Di, I, Ki, Wi; aleafa Ky. 3 eequla® Bu,
+[p197][synonym_group][general] Di, Ky, W1. *zalq Be, De; cam K5, We. 5 Gat Bs, Ks, U, Wi.
+[p198][concept_desc][general] ANTTAVS: TAS: VI HHA TAH!
+[p199][concept_desc][general] SpStat: ? 1 Paar UA
+[p199][concept_desc][general] STAT: Aaa — AS Tata Ul TTR Ty: PATA’
+[p199][concept_desc][general] Als: HlSesiala Sa: Breararisrary tie i
+[p200][concept_desc][general] die: Bea eens ge ae Ae: AL Sa: SAT
+[p200][synonym_group][general] Wi, Pt. 2aze° I, Wi; ad Md Taq wasaqaaqkaazaazia B..
+[p201][concept_desc][general] GTA: ° FACITAART U2? Il
+[p202][synonym_group][general] 2a, Y. Faq: A, Bi, T. fara ania aks: aga egarar Pte.
+[p202][synonym_group][general] 1A, omits qe4i. 2 fq Aa. 3 °aifgaey Ai, Bo.
+[p203][concept_desc][general] Zanes: ASAE swsteg? Sas aes? Fatsosedtscale a
+[p204][synonym_group][general] (WI,) Seca >
+[p205][concept_desc][general] SCMTTTIANAT: HIRT HVT YT
+[p205][concept_desc][general] Taggart: ‘erat 2g eal get ead ciraeat’? efe dred aa!
+[p206][synonym_group][general] Lagia we B. aaa ad, aa wadtagaq; ataaar waa saiaay Bo; a: aoe Ks, Y. 31, U, W, add area. 4< fare way? Ke Fe qqaqved’ By ‘Twa? ALT, Wi. = 8 ete Ba, Di, 1.
+[p207][concept_desc][general] TANITAA : qs TTA SATA.
+[p207][concept_desc][general] MASiIsaesa: asTAARTA: Be: 1? alt Swagaetara eraarar ela war’ sft az Mada Ta: Sas aa 7a @? oad sarataairage afta: Sag waaay? rate saraietit HUtrasaiT: Serreatet ATTA aa: Sata GTA? rae aga: Fraga: rear sarartia waaay 1 82 UI
+[p208][synonym_group][general] Laat; GH:, F a Badia Pr. 2 aftaraafa Bo. 3 faceqcoy Pt,.
+[p210][synonym_group][general] 1B, omits. = al Bg. 3 faa; Bs; qizanea I. 4 ara suaRaaRaah a ef sees 5 earaie: At. 6 Bear Bs.
+[p211][synonym_group][general] 3 fxd A, Bi, T. ‘adearay ufyoareearfa 1, Ks, We > wafer Pty,
+[p212][synonym_group][general] * saraararatar, “Saey. .°, yey: Di. =? Fafe Faravarg’ Ke, Y
+[p212][synonym_group][general] 6 sad A;3 3d aed Pts, 7 Pt, adds. 8 setararke Bo, De, I, K;, We.
+[p213][synonym_group][general] Qyo TACHI: [SaHRIvT: laaare =a SRBes: FIC; Bo; fase asia asaia Be; sasrdscale
+[p213][synonym_group][general] Pt, 2A,B, Tadd aaa. %arue Pt; feat A, Bi, Wi. * Bz, Di,
+[p213][synonym_group][general] 1B,, Di, I, Ks, We add the line. . 2 Wi, Ptpadd. = 3.1, U, Wa omit aye. fain sat Pt. SAPA; as: Wi. ° Faft Ba, 1
+[p213][synonym_group][general] Sgr A, T; qafa® Ks, U. 9 ont fe° Bs, Di, Ki, Ks, Y. 10 qyqav
+[p214][synonym_group][general] ‘aif: fal: Ds, Wa: (Se Set’, Fes BISA’, E TeaSaa)”: aa mgaaq A. = * Pet By, De, Ks, We. 8 zi Bs. 4 sing A, Ri,
+[p214][synonym_group][general] 5 Bi, Di, W:2 omit wid. 6 sqeqa ecqa Pt. ) ay oe hs p Ve ae fPaq wafea B., K;. °% Pt, omits ag. 10, A adds sayy, 1 SFA Ks,
+[p215][concept_desc][general] qaReatniqgia: wal GaTaaat
+[p215][synonym_group][general] ‘gut U. Rnanieeitaatean; Pt. = SQeoagay Pt, = 7 B, Dy, I add qaal dafiferar.
+[p217][concept_desc][general] ats: wiaaizasien affsone eae i 39 1 wed a ara fraser arg:
+[p218][synonym_group][general] Dy, I. “arag fale; Pte; arqa faeafh Ba. Saat D., I, Ki, Ke, U,
+[p218][concept_desc][general] SIVMTATAZaAA: TI— SG: BETA ] aT aT— seas: BAT aati StH HEREASHTE: aaa ee z
+[p219][synonym_group][general] “seq srardfiet: ce ud eet, <a a> B,. 5 Bo, Ks, omit
+[p219][synonym_group][general] SRI I, Ks. «= LW gos Pt,, " seadss arate at Bs, D,, Ke,
+[p219][synonym_group][general] Ks, U, “ qay Bi, Di, U, Wy. 18 giatleal TT RIEga aH ise: Pty.
+[p220][concept_desc][general] TATE: “eiagaet eT CATATRY od ae: saa
+[p221][synonym_group][general] Qo, Ala:
+[p221][synonym_group][general] K, 9B, addsaaqafa. lq BT. 1 ‘ag out’, afieqeatad
+[p222][concept_desc][general] ant: Terra) rare: aT:
+[p222][concept_desc][general] SHS: UIT FT ATR cal Bass: Baataat Trae SAIS: TraPRATa I eter aT ea a aTrAaIaeatseahe wr Rarer —e ala sd & WI.
+[p223][concept_desc][general] SUT: Tat aie far: caatarags ) &
+[p224][concept_desc][general] Taafe: Sass AteTar’ ay HANA letea sla ete: ‘ Rrigzer
+[p224][concept_desc][general] EAMNAAT:° ea: Tavita staTee Pre rae ar ‘a FATTO?
+[p225][concept_desc][general] witien: wiseRa eT: TATA: UO aivay aeaataa farhar aah aa
+[p226][concept_desc][general] AIA: Teeleras: sremaghes:? ‘saemeseghea:’ sf Tanaaanes sareaeqasawt i) ec
+[p226][concept_desc][general] GET: HISTA AAA Pag AAT
+[p227][concept_desc][general] Sag: Fal: Saree Sea: Far Bieraaarsar? eta eT
+[p227][concept_desc][general] fase: HIATT aaa aearaaar
+[p228][synonym_group][general] Rre=qancaleagia: “gsr framttengragErTg” quEg°y fq SOAS IISM. TH aaSe= SAMAR :
+[p229][concept_desc][general] AASSITHIAUT: TWerawe: Bear:
+[p229][concept_desc][general] saeargahe: farq: ava Tereisaag: We
+[p229][concept_desc][general] qeageorat: 1 rege GICAL AT TCETTUN TTRTATT! IST ATE
+[p231][concept_desc][general] digaa: 3a? ge vesdla aR Sa vaeg’? ai: Raa areas ll sq FY BER? sale) Sse! wars? sed Tesla aate See AT TES? TA TET Glas sels: EGAlt araada aRaIT wRAa ead: Sag ada? TRAPATT UL I
+[p232][concept_desc][general] PPWStS: Gi FAA T HVA
+[p233][concept_desc][general] TARR: — [serravg: tee
+[p233][synonym_group][general] Gia? SAACRATATAT SSSI UY I lgeat A, Di, T; He Ks, Wi, ¥, Pt. WA ard Bi, K;
+[p233][synonym_group][general] Squgaala, arate aftacnenat ahi at, ‘at ayaaray’ Pts. 4 ahaa adler Pte. 5 famarmadeara Ks. 6 Ks omits 5 lines; faweg,
+[p234][concept_desc][general] HAI: ETA aed? erat: 6s aT? ae
+[p234][synonym_group][general] 1 gzqza A, B,, T, Pte. 2¢afy feet? Pte; I, Ke, Ks, U, ¥ add sqsqed. 3 aftasd oar; Bi, T; afta gat Ka, Wy. 9 * Seed Serer Za Pt.
+[p235][synonym_group][general] ° atctft B,, Wo, Pte; < gq Tat? Pt,, Wo.
+[p235][concept_desc][general] BRITTGSIATARELVE: TL Soralisa) ace.’ sf aad
+[p236][concept_desc][general] faa: aearets ae afr TSS a tareOS:
+[p238][concept_desc][general] WIA: TLE AAUMATAEA? aaa ees: we orca’
+[p238][concept_desc][general] Zit: Spa sar? erate wears al eryRAT’ at sears fare 1 §eapr arora: eae weerafe an. $e Bran? sitet U2 UI
+[p240][synonym_group][general] 1A, Bi, T add caq:. 2 Pty adds {eaiea. 3 ae eq? Pts.
+[p240][synonym_group][general] 4 dae Bi, We, ¥; ‘ atsy fearary’ I. 5 Ks, We, Y add atafigaar.
+[p240][synonym_group][general] Bu, T. 10 srpepye A, Dy.
+[p240][concept_desc][general] aeaes: Wasa cart raw: Tat
+[p240][synonym_group][general] Be; ‘37 aq’ A, Bi, T. 5 higaa wesdta Bi. 6 qaleq aM ade Ala:
+[p240][synonym_group][general] Bi, Y. 7G: fae: Be «8 amadtazaTa We; SeTTARERE :
+[p241][concept_desc][general] SAWSACIITGA: WATITAAaAy HAT i 22 i
+[p241][concept_desc][general] Ofea: sas ASAT ATVI: . SAT DSN? TH stl TesA ore:
+[p241][concept_desc][general] Wows: BITSA Gals 1 2Q—-Re UI :
+[p241][concept_desc][general] TRIG: AT Tei Tews: atusrag wedges
+[p242][synonym_group][general] (Qt,) aszi—aeeT:
+[p243][synonym_group][general] Ta? Seqete: eet Ge Mor weelsaeer weepaAraty 22 1 t aqqreadifa sae: De, Ks, U. 2 qrsearensaeey’ Bo, U. 3 mrad B, T. 4 apReHAAe «By, Di, Ks, Wo. 5 val Saale ar }
+[p243][concept_desc][general] gwen: fara gin: ag: cat anrgefesrat zai
+[p243][concept_desc][general] GAUGE: UAT UTR AHR!
+[p244][synonym_group][general] 1 epizafed B,, T. AAT Pty, 3W, omits two lines, 4K, adds Waar =. > srzafa I, Pt.. 6 arfiata: Y. 7 gafafafa Pt.
+[p244][concept_desc][general] aiq: fe al wale wadiale dees: agate: ae raed Tee: tN? * sia i 231
+[p245][synonym_group][general] 4 ug: By, Di, Ks, Wa; gaa; U. 5 alseq BNL Y. S Biedlie Fret,
+[p246][synonym_group][general] 1B, Tadd serfean; Heat? Bo. = Famer: Bi, Di. = 8 Corr
+[p246][synonym_group][general] De, I, Ks, U. 4 caresy® Y. 5 sparaarafafaen aaa Bo. 6 wa Ks. ? genuftt Bo.
+[p246][concept_desc][general] TAea: Teas Fea at g Aha
+[p247][synonym_group][general] Ka, Wr. 9 giéeft Bi, We. ng: We 3 ANA AAT Pty. il grat:
+[p247][synonym_group][general] Bi, Wa, Y. 12 ¢aq @aqy’ A, Bi, Prt,o. aig; A, Bi, T.
+[p248][concept_desc][general] AMAT: TATA: ACTA ) Sra—
+[p248][synonym_group][general] Perr meat Ar. = dass Ay. S°da° Bs, Baw = 4 A, omits,
+[p248][synonym_group][general] * Rag By, Dy, U, Y, We; ears Tat Da; eacorg at yf Pr.
+[p248][synonym_group][general] TaIsarTy HT Tsd Pte. 7 aq De, Ky, Ks, Pte 8 anita
+[p248][synonym_group][general] D,, Ks, U, Wi.
+[p250][synonym_group][general] 4aqr aq; Bi, K;, U; anata Pts. S-gex efa frittata A; sexes
+[p250][synonym_group][general] TAA VAM, VAN, APTA, TANT ATT—
+[p250][concept_desc][general] gar: sored waza: vasa fag Gat
+[p251][synonym_group][general] Wega’ Be K. Pq Wy = 8 K, adds gala. = dearary THATT- zatq By, Ks, We.
+[p252][synonym_group][general] 1Wy, Pt, add Ha Soa Seqa Efe Hevea, sa ZT’. 2 arated aftun; gf ara: A,B, T. 2 se qaeqeseqtaiearaf Wi. 4 “away?
+[p253][synonym_group][general] ATaeeF faa aTHETA eee Gaia TAs ashe y 6 GF wet %eTty [ Tele lqaa sera, Heqa, ‘cam Bara’ Bi, Di, K;, U; ‘ae mat’? Wi.
+[p254][concept_desc][general] GAVS:—Sla TAHA aeatle: tl v2 UI
+[p254][concept_desc][general] Hee: rat Hea: Ragen: Hadsfesarz tl V3 Ul aafan aaaes aystHrart Awiss:
+[p255][synonym_group][general] Sr FfLSE AFIE j Trae amet ts u l seq e2e:B,, Bo, K5. 2 a27B,, Bo; eT. ® T, Wy add gaelai.
+[p257][concept_desc][general] Ass: wert g Tara) cena ayes yf: 1 a vedi ae Sere? lafet TAT: a orara we Raa atTtid yTat
+[p258][concept_desc][general] Tar: Star? aeaeaare waar) gsoriear TTT Area sft ari Sael4
+[p258][synonym_group][general] Bi, Kg, Pte. 6 fasfa gar Pts. 7 BS: We. 8 aif aftat Fo.
+[p258][synonym_group][general] 1 syad aretttd Wa. 12qgdar: Fe, Pts. 13 aT; Bi, We, Pte.
+[p258][synonym_group][general] 16 gyamafaal Pte. 1 gad K,. 18 safq AST: Bi, Ks, Pte.
+[p258][concept_desc][general] Tag: Sarl fear Sarkor Maat i watt TI 3 I
+[p259][synonym_group][general] 1By, Fo, K; add free fasta. 2wes wet Fa At ae: Je, Ke; SlA- qaerfear (¥. 2. ¥2) SQ Ks. Faeorar Fi, F;. 4¢azq qed? By, Ke.
+[p260][synonym_group][general] ‘sf wat Wad sett Bi, Ky; Bi, Ks add eas. ? Badia, ‘sa aaq gid’ By, Ks. 8 sag Kg; F, adds ‘y aarany’. 4 arggive
+[p261][synonym_group][general] aatarat frataatad era: ’ afc AS: (2. 22) Bi, Pte. 5 fad aded B,, Ks, We; Fe adds aaiea:.
+[p262][synonym_group][general] LP, adds fey ad. 2B, Pty add ASIA Va; ASMA; WETIA qescakatata Fe, Pte. 3 K., Kg add aait:.
+[p262][concept_desc][general] MFT: WIEERA AAPATS F WET
+[p263][concept_desc][general] AAAS: "SEARS ll aaa sess ‘aenaazit’-
+[p263][concept_desc][general] SRBC: TERT ngcergier lot aati 3 sea} aa a sf Wea: _— saat: ‘eaq faaa at THE TA aaa: RAAT ETA sea) TATA
+[p263][synonym_group][general] 1 gzfé° for afa° Bi, Fi, Jo. 2 aeneeey alsa aenaaRensat aamUala 2a Wa aaa Taal gl TA Beas a] Aa aH Sa, WHcaleahharfe
+[p264][concept_desc][general] TREE: H Tal? sige ear aka wears one AR
+[p264][synonym_group][general] 1 °ufe? De, Jo, Ks, Ke. 238 Pte. 3 F, adds adware.
+[p264][concept_desc][general] atta: wala: vat adeanrdia a 26 I
+[p265][concept_desc][general] AHMET: TAIRA a) Soee Tat? gerasaaeae vat ‘az Tal aaa oe: Sana?) ater) “seat esa se ce S:ea amat:? waa saad "aT See Rawr? aaedsaar saa wte
+[p265][synonym_group][general] 1 aad: Fo. 2 aaa By, Fy, Ks, Kg; ‘at Bea’ Fo, Ks;
+[p265][synonym_group][general] asad wWreeaoninva gf Fo, Pte aaa’ Pt. 3 ada Kj) a7a- wear, ae Tat? By, Fi, Ke; aaHaea: Fo. 4qeqafea, ‘af wat? Pte.
+[p265][concept_desc][general] SSearis:en ] g S a i r eg e : F f a r r e r : F T a e a a s : : T a q a a:* a Be a aaseaT ie — wat
+[p266][synonym_group][general] 6F», Pts add eal Tal aka aq FAW; TUT? By, Ks.
+[p266][concept_desc][general] qoeraay: Garat aa gresiatreHTT i! Lo
+[p270][concept_desc][general] Tae: ll gé—seaftaq Aeleaaasajersta? ararrhipacoy egraqdaadagd oa aealad a at te Gals a gery’ gtd aaa
+[p270][concept_desc][general] ala: Hel Fal: Ulet Gar aanaa aeq
+[p270][concept_desc][general] TIT: Mel AAA awa "Masaka ws daska HeaaIes1 vast
+[p271][synonym_group][general] ‘aaerdsiatraray Saal saa? gearIl sufi aset oqiiniaia ai B ae U ad R s F a S r AA a’ A ste re E rt t era t S a e i t g f e er a fe r a l st e sr a A ia S 1 T T T R A E paeaieata® FI) Sat a? ae AST STAT area Ine tt grammigar Fe, Pt,. 2zad Ko. ‘aq for ofa Ky, We.
+[p271][synonym_group][general] Bi, K;, Pty, Wa. 8 fseaayey Ks, Wa. 9 BK, adds WoT: , aT Gea FAA AACS FETA
+[p272][synonym_group][general] 1B, omits. 2 < qq teh TATE > Ax, Bs.
+[p272][concept_desc][general] AST: SHS FAA? HATA: WANA: PASTATTATIGIAN I Aa axdifa earl) Zar aca? aageara ll osdteaftare oar: “see
+[p272][synonym_group][general] Fy, Pt, add art:; F, adds aaa qraaaaaaq, ‘aaa adt’. 2 at facnraraell sarasafa ar Fe, Pt, = 8 Fy adds Rarea:.
+[p273][concept_desc][general] TAI: TaitTo aro
+[p274][synonym_group][general] 1 ysitaa: Je K., Ks, Ke, We. 2 TET: URGES: TART Hed Weal seat Fo, Pt, °Bi, I, Ke, Ks, K, add agent a ara. = 4 F, adds quefaia. afanAe Woe, Pts. 6 ofaafseead sla ar Pt. 897 ae- fad F.. 8 F,, We omit aie. 9 ost We.
+[p275][concept_desc][general] FAT: TTA? FAIS eeRA— aaa Za se? 1 zE-
+[p275][synonym_group][general] Bi, IT, Ka, Ke.
+[p276][synonym_group][general] LF, Pt, add weet. 2 aeeq qa: ft at saa Fo; cag
+[p276][synonym_group][general] * De, Ptp add dam. . %aft: Bi, De, I, Ko, K;. 4 °SqR Ke.
+[p278][synonym_group][general] a Tediaiey Je, Ke, Ks; 91 Ks.
+[p278][term_list][medhya] AMATI Ay Gtetsctseseta
+[p279][synonym_group][general] Tales; GsIsaat Pte. 4 geqdsaat Fo, Pte, > Ky, K3, Ks add ar. Saga K;. 7dalad aaalad Pt. 8 aafeera genitalia Fo.
+[p279][synonym_group][general] teufa Bi. = Ky adds faa:; fg: Bi, Jo, Ke, Ka, K;. 9 8 Sng wee waza’ Fy, Ky, Ke. 7 xfer: Fy. Sata K;; Fi, I add ‘aa faara.
+[p281][concept_desc][general] TRUST: THT: STI Ze gf *taudeteghgeaagh casa gee:
+[p281][concept_desc][general] Lena: Sata A. 2 oaefae? Ai.
+[p281][concept_desc][general] STE: ‘Ey azar’? aca fayatala ac: 1S gsr arear? qari daaiser ada aa: CITA q° wea sate : Sas aA? TTta aaa sia mtr: ‘Se "eae area ae sea Piz 7 AT
+[p281][synonym_group][general] Kg, Pt, = S aqsfteqeag Kg; ofa? Fi, Ko 007‘ ar vam’ Ky 0 8 Sag ig wad? Ke, Wo.
+[p282][synonym_group][general] Sala Wet: Wareaseata Bi, Ks, Pt. 7 gaqdaara Bi, Ks.
+[p282][synonym_group][general] § qaaia Je; Ke, We, Pt, add eaafe. "aq GBssh Fe, Pty.
+[p283][synonym_group][general] Tat? ASRS A a we ad: Sad srt7 away gad git aa: aes ae? faa: eit a i G5 wR we Maa: wa: Mazza war eb laggy K3; daaq De, Fy. * aaqiaaacaia Je, Ke, We.
+[p284][concept_desc][general] Sta: veraut aritvaret feat az: G1
+[p285][synonym_group][general] ‘ea qyiteq’ Pt, 5 avieqiadt By, I, Ks; sraiafeaeet ceratafafa rata I, Ks. 6aza: Fi, Ke; fit: saan: eer Weare F aera
+[p285][concept_desc][general] TISAI: a: Aa SARA ieqrTeeT pTameacnsne”e US Ul
+[p286][synonym_group][general] 1 ganifeey Ke, We 2 BleIea; Fe, Pt. 3 ae; qlar ga SIENA aged Zit Wal, ‘Te Wat’ Fe. 4 ft; Ke, Wa; fret vadtie B.
+[p286][concept_desc][general] TAA: WE : VI— ASM: Preraa WRreaars ar! Betas!
+[p287][concept_desc][general] TelercmlaTtARE: “DETARatt 2 tl
+[p287][synonym_group][general] LP, Jo add ga:qeazqiad asad. * Pthadds gary. «= * Aaa:
+[p287][synonym_group][general] Fo; Aredia: Galea:, 74: cha: Bafa Fe. . tag gz Tat’ Ke, Pty.
+[p288][synonym_group][general] Fo, Pte. 4 qRagaq Kg. > eq? Jo, Ke.
+[p288][synonym_group][general] Fe, Ks. 4 aeatta Jo. ° STATA Ky. Saselat falarty I, Jo.
+[p288][concept_desc][general] Teotta: cers: THETA? Sta 1 2 I
+[p288][concept_desc][general] tteaecaie: wee: ao Sateg wT:
+[p290][concept_desc][general] TESA: TRE TAL? TET UU
+[p290][synonym_group][general] aegd arad TAR, “Te WaT’ Fe, Pty. 5 fad Ds, Jo, Ks. — ° saate q13: By, Fi, I. 7 gad 8; °E Tat’ Pts. 8g; galaaalser Pt,
+[p290][concept_desc][general] Fae: il He se Caraedetser: 1 Az GTA? ets get aladsatt art
+[p290][synonym_group][general] 4 Fo, Je, Ko, Ks add “ATS. 5 F, adds availa.
+[p290][concept_desc][general] Chara: SIAR: HITT SITET: BA TCTTAAAAL
+[p291][synonym_group][general] ATS AaREMTT: Fela: TETRA Sy asa A VU iqafreafa Ks 2 affaafe Fi, Je, Ka, Ky. 9 af awe’ Ky;
+[p292][synonym_group][general] °° aa C44’ Fe, Ka, Ks, Kg. 4 Fy, Pty add yeuar. > arartar F,, Pt,
+[p293][synonym_group][general] Fo, Keg. 3 araaitad Ks, Kg.
+[p293][concept_desc][general] AVATART: HT: ORT: TVS: AL TAT: Sey Tera? ale swaps:
+[p293][concept_desc][general] AANA: QeLSST WAT SAT 22 1
+[p293][concept_desc][general] SCALE: ¢ a(S TSU q° assays ay? FACIE i
+[p293][synonym_group][general] I, Jo, Ks, Ks. 4 Faleaq Tar Ural Bar Pte, ayn aqa—wa ARaMATAUTI rao& waaay
+[p295][synonym_group][general] Bi, Fi, K5. 5 alaaesa Bi, Ka, 6 Fo adds ‘ qs Wes SILO .
+[p296][term_list][medhya] (fa) garetaltia—wedhia Haq SAS Mead)? ake gerahe-
+[p297][concept_desc][general] WSs: OMS Het? ee sie ae: Bar waa? Fataaqeeadaa aaai) eet steeurrtagats ee ge aifec aa
+[p298][synonym_group][general] Bi, Fi, Ke, Ks. 5 gala Je. 6 agate Fy, Je, Ke; arqaata K;.
+[p298][concept_desc][general] SWFA: TSMSGAAATTAM:
+[p300][synonym_group][general] 1J,, Ky add yet sifamaaa: afeer:. 2 aes Fi, 1, Ks; Malet Fe
+[p300][synonym_group][general] fain qe sates: Bart, card, ward, geal, aT gst ageaq sae geet gait sedi ged—uest! qiealed: St adat adaatos: vatloger wats Wes, TEST SII l<aeqazit Geogr’ sf aR (g. 242). ? Ar adds
+[p302][concept_desc][general] ACT: HBT Asta gs: Seaneaeaae ar area: UA areat sareg USI: Ut Bae aia ar Setsay Sea? ates
+[p302][synonym_group][general] 1 offat aa ania Pty. 2 ascaqdiid Fe, Pte; arcalia ar gis: Ks, Pte.
+[p302][concept_desc][general] Gata: ara te AEP eqaTEgisA Serra aE: HIPS: gfe Misr! awdasedish) ‘erga g
+[p303][concept_desc][general] TASS: ST TAIT] BACH: ALOT ofar : Tata:
+[p303][concept_desc][general] TUASa: Tartare 6 Bra
+[p304][concept_desc][general] Saas: sa aaarargenitars: ‘filisisa AIS: > fits
+[p304][concept_desc][general] STENTAAAGACAS: Ul RE-8 I fat aene: aet afeaeg Press tl X<
+[p305][concept_desc][general] STITT: epraaa See a fagiera’ areata age ‘ & wea? age Be aT! EeAT? a eae ate: ora
+[p306][synonym_group][general] 4F;, Ke, K; add araaic. 5 aff aasqadd Pte. °F, omits 2 pages,
+[p307][synonym_group][general] “Miko K,. § Rraqgaaari, K Ks, Ke. 9¢feqqy Jo. 1 qearfe° By, Ks.
+[p308][synonym_group][general] 4erfnerqd F., Pty, S=qlafa Bi, De, I, Ks. 6 <sgfaz aur? I, Jp.
+[p308][concept_desc][general] CFTR: Sas Paw? ae sate wecdta gorda
+[p309][concept_desc][general] aga: gata aver sarsrarett i 30 I
+[p309][synonym_group][general] 1 RAe Je, Pty. 2 aazaig By; aera 1, Ko, Kz. 3 Kg adds wz. 4 garda Ks. Saag Fe, Pt Sasi Kz, Kg; K; adds
+[p310][concept_desc][general] faega: castH: HIeeHneaar Prftrack i Be I
+[p312][synonym_group][general] Lfageeatg Bi, Fi, Ks. 2a dat’ Ks, Kg; ‘agate,’ Pty.
+[p312][concept_desc][general] HAH: Wena: LIT Tal SlatTaraa:
+[p313][concept_desc][general] FST: WE Aaa TAIN: ° PeieeeqaTA Pec
+[p314][concept_desc][general] Geeidttaaa: Sey aut? aga cars getty ge THIN:
+[p315][synonym_group][general] 223 laafa K;, Ke. 2 garaty Pt. 3 saanTagaea Jz, K5, Ke.
+[p316][concept_desc][general] Wea: AHS! Hh Te Tee eT eT STS TT?
+[p316][synonym_group][general] 5¢ Wage’ Ke, Ks; ‘ famgt’ Jo. 6 aqrataeaic, 1, Ke, Pte; worsted qadashatatd Jo = ? afefttaac’ Jo.
+[p316][concept_desc][general] gata: cfc: afin: afearee:
+[p316][concept_desc][general] BTAA: TEA AHSTSITISA ll Ve It
+[p316][concept_desc][general] Gamer: act: Geaeeet: ear! wer: CameeT ATE: Arere: sass:
+[p317][synonym_group][general] ey? Fray Trea la Za iGe FATS? 1veu liga® By, I, K,; feats nea Pt,. > aeqey Tey By, Kz, Pty,
+[p317][synonym_group][general] GacaERaaal Feq Pt.; qarnaqaa; Jo. 7 feadinala Prt.. 8k, adds fearal =. ° aaaira By, 1, Je, Ke, Pte. 10s neqgqar’ Jo.
+[p318][concept_desc][general] Reve: aaa’ aga seg tS aSy Tah? FAST SASTTT. Galas eseia _TATETS: Wea Rae ave: & ate 1raTary’
+[p319][synonym_group][general] F,, K3,Ky. 8 eyegeiearg, Pt,. «= 9 B,, K; add eqed. = 10 qeqRza: Dy.
+[p319][synonym_group][general] Fi, I, Ky, K;.
+[p320][synonym_group][general] Bi, Fi, Kz. 1 geaq K5, Kg. 12 shore} Ke. 18 Bi, De, Ke, Ks add ada:. 14 fafaxcaraeary Bi, Ks; Ssxeqrarer Pt, 15 fxg za Ky. K,,
+[p321][concept_desc][general] Gar: aaa Az: faza “agasrarata aaae
+[p321][concept_desc][general] gals:1 6 Wa ° STOPEATATE
+[p321][synonym_group][general] 1 HOS TTR qatar Je; Pty, * Heyy: By, Fi, Ja, Ks. “3Pyreqriety:
+[p321][synonym_group][general] K;, Ke. Sopparad Fo, Pt. 5 afa° Bi, Fi, 1, Kg; wera De, Ky.
+[p322][concept_desc][general] Boga: Ratiasreaae ate Aes? i ae—c 1
+[p322][synonym_group][general] Liang aea: Pt. * alka DTA: Fy, Pty, 322 Bi, Jo, Ks.
+[p322][concept_desc][general] altrntt: Tsay wat Baa se i Fe
+[p323][synonym_group][general] 1B, G,K, add erga. "aaa zit carafe: Ke, Ks. 9° #0ee- afta G; wzageifa Pte. 4‘ yee K,,. 5 <saq fans” Ke, Ke.
+[p323][synonym_group][general] 6 sgiadl G, Pt,; ‘agaireg, aze’ Ky. 7 Gaad! Keg. 8 qiqafa K;, Ko.
+[p324][synonym_group][general] Kg, Pte, 6 fag Weidifa gad gfe ar ae:; “aE Me’ G, Pte. 73
+[p324][synonym_group][general] Te: BTe: Ky, Kz. Sarat Bi, Ke, Ks, Ks.
+[p324][concept_desc][general] Bea: Sesame Sskaages Ou ear ResenTe wea SATE at Barat sigs wats fg? sft wa: «Brava? ge Ul after aaarat at Rriieeg aaa:
+[p324][synonym_group][general] 4K, adds anita. Sarparaig G, Pt. Safi Kz, Kg. 7 yosdlid ufise:, “ae weary’ Pt. = 8 affex; B1, Ke, Ks, Ks. 9 araT@a? G, Pts;
+[p326][synonym_group][general] al’ wardtarattel (6 atmlesar°e lt s&Ul lager Pte. 2 aa set aaa Hadseafea at Pte. 3 RAE aaity arate aeaf D., Ks, Ke. * ayarie? By, 1. 5 Ks, Kg add aatle 6 fasaa zi Ks, Kg. 7<f BR? G, Jo.
+[p327][concept_desc][general] voter:>i zen a a soma onfasaseneh ontterar:.
+[p328][synonym_group][general] TTA, TNA, TTC Fle TSi: Heaa “le awasr Sas aS ah?
+[p328][synonym_group][general] *fatdlid G, Ke, Ks, Ks; Ptpaddssfisamengq,
+[p331][synonym_group][general] Bi, De, G; daaRaz.a Pte. RraTea? Jo 10 sary sey quae Pty.
+[p331][synonym_group][general] l<gaqamty, ? Jo.
+[p332][concept_desc][general] Size: ges ate aia aed woes Bodh Saad ‘wen?
+[p332][concept_desc][general] RIDA: ROTH TH? MAL: VE veal “aaah
+[p332][synonym_group][general] Lyafa, ‘we atarstt’? B,, Ky; ‘faa aaiftz’ By). 2 a oY,
+[p333][synonym_group][general] Jz, Pte waid G, Ke, Kg. ° seqzHe OK;, Ky. 6 gaa: Kg a Ra Je, Ke. 8 < ey zaat’ Ky, Ks, Kg. 9G, K; add ad.
+[p334][synonym_group][general] Firsts; Pty, taeqd, ‘ser aeTqa:’ Ks, Ke. 5 gummi Ds.
+[p334][concept_desc][general] Teas: Rarer Raqeg? Ul “eriearet ararearedtia TRIG:
+[p335][synonym_group][general] Acqae Je aaj, °slaaqaarkK;, Ky; aad Bi. 7‘ wee-
+[p336][synonym_group][general] Bi,I, Ks, Ks.
+[p337][synonym_group][general] Fy, Pt. Sfaqe By, «= 7 aatarmetia Je; Tiva° Ks. 8 arf grget: K5, Ky.
+[p338][term_list][medhya] (f.) aremati—enen qertsen! erengar) arg atin? ya
+[p338][synonym_group][general] B,, Pts. 5 val aaitdt K;, Ke, 6 af] Kg. “feafa Ks, Kg.
+[p341][synonym_group][general] K;, Ke, Pty, 9 G, I add at.
+[p341][synonym_group][general] 3 Hucfarata Jo, Ke. *Bi, G, I omit fa; deaqeaar Jo, Pte. > BEqa eqaqa alg Pt. ° quiéqgualfedis’ K, ; ‘trggwte’ G, Ky, Ks.
+[p342][synonym_group][general] 4K,, Pt, add ‘meade’. Saedg Pt,. ° agar K;, Ky.
+[p342][synonym_group][general] 4¢g@ aff zal’ Kz, Kg. 5 efantcda K,, K3, Ks; menace sada
+[p342][synonym_group][general] Pt. Bi, Jo, Ky add of 7 yqadaea’ Fo. = 8 ae Jo, Ke;
+[p343][synonym_group][general] 4agare Pé,. "aeatieeh Pt. = Sead K, «= 7 gaff SAT ea eA, Pte.
+[p343][concept_desc][general] AICYS: GATS Bat asaya i 2 I
+[p343][concept_desc][general] Aaa: AAAS Ure Sle Arash Ug Aad? aera aeeatsea
+[p343][synonym_group][general] Bi, Kg, Pts, 6< ayfaa qle¢ ° K,. ; aa Pty, 8 < ha ae art > Pte.
+[p344][concept_desc][general] TIT: FT) CS BT) Sse Tee? Raff eae erst g rea: ? AeraataaR MST BS sears wel SSS Gara? Rreastan <freaSthe? 1) ako: Frege sietrerst Vaccum sagt seat aces wer at we: awa see Fa Tat “Qafossrera oA ake
+[p344][concept_desc][general] TGR: Tat HAST Boral BOE: ice Sat qt eT Wags
+[p345][synonym_group][general] Sq Za SST Hepa Pt. S yganvenearq G, I, Ks, Pt. * Tat veal as; Pt.; my G, I. Sufi G,1,Ks, Pt. 9%gaacaaediia Pt.
+[p345][synonym_group][general] 10 qq-THlSH; Bi, D2, Ks, Kg. 1 ae qz mat? Ks, Ke.
+[p345][synonym_group][general] G, Ja; Ka, Ks. 76 alaesatits ; Js-
+[p349][concept_desc][general] Raves: wena: Raga TERT: GAAS AS: SAT edid gla: ‘ea fama? fee qeaaefete esq
+[p349][concept_desc][general] Raves: qoepadkadiamia SagagS? i eeit—dagear Feg-
+[p350][synonym_group][general] Baars; age xls oa: atenieterarg (g, eo).
+[p350][synonym_group][general] *aeic I, Jo, Ky; aecqear K,. °K; adds yeatwa. 3 az aRasa? Ke. * Dz, I, Je add gsnaarat; °aetai By, Ky: qoztay wa) SET]
+[p350][concept_desc][general] wage: avert Bryzt Rrazar Taazq
+[p351][synonym_group][general] * aguamietat aterimayaata Pt. — ® qzaqanfeieara De, Jo, Ks.
+[p351][synonym_group][general] FRR Bi, Ks. guy Pr, = gee1, Ke; Homa Ks, Ky.
+[p352][synonym_group][general] 1] 208-29 II lagi Ks, Kg. "zfea Ks. 3 aq Da, Je. 4 afpeq ag Pty. Sagar gear afe: Fe, Pts 6 Fart =a EF De, Ks, Ke.
+[p353][concept_desc][general] avaate: fateeeeat Tet FA ll 222 1
+[p353][synonym_group][general] 1 afgaraie? K;, Kg. 2 aaa De, Je. 3 qinredaq Dy, Kz, Kg.
+[p353][synonym_group][general] 4P,, Pt, add asaya. 5 Fo, Jo add aqdsaat af:.
+[p354][synonym_group][general] *agantaqtalna G, Jo, Ke, Ks Seed aadist Fe, Pt, 6 “AREAS? J,
+[p355][synonym_group][general] Tl WS: TASLTTY ? 1) 9 24-%E Ul igayeen eae: wae: Fp, Pts, * eeerig fa De, Ks, Ke.
+[p355][synonym_group][general] 3 afteara acanaa By, Fe, Pts. 4 agauq Pt; card Bi, I, Ke..
+[p355][synonym_group][general] S Saga Fe, Pt §*qfa? Gi, 1; ‘ef’ Jo. 7 RRETSA get De, Ks, Kg...
+[p357][synonym_group][general] Te Ae? lL BRIGPAST ASAT aes ara wes arene ermereeer Brea STRATA? 28 U loqumd Bi, K, @agda’G,F,. fend G, 1, Ks, Ks.
+[p358][concept_desc][general] SUPT: HHA TAT BATES? Ul TTSI—as a Sraraa
+[p359][synonym_group][general] Susy Ks, Ke. 6 dad Fo, Pt,. 7 ancaa De, Ks, Kg.
+[p359][synonym_group][general] (fq,) wrgati—eaa, fata saad aud dairies
+[p360][synonym_group][general] Ks, Kg ?adqfa Jo %*aegRaét?D., K;,K, 4 sdeaaait-
+[p361][concept_desc][general] WAM: ? TT CT FAL THA Ft aS: 1 Te ard gear ‘ge saa?
+[p361][synonym_group][general] Fo, Pt,. teem Nga,’ Ks, Pte. 5 fqeHte; Fo, Pte. 6 Ks, Ke;
+[p361][synonym_group][general] Pt, add ma’. 7 ae HL ast’ Ks, Kg. * carte Ks, Ky.
+[p362][synonym_group][general] Legg; Ks, Kg. 2 ananeg Jo. 3K, adds ya. 4 ay
+[p362][synonym_group][general] 9 deta Fe, Pty. 10 SsHel, BT TUlaa Ta Ke. 1 areata warfaia Pte. 12 HeneaNttd D., Ks, Kg.
+[p363][concept_desc][general] ailerorieaearennta: <QQ aqsis qosaaa Ga: HATH ll 2 Il
+[p363][concept_desc][general] Ria: yes « HIATTA ateqaatSZ rat TT ’ qU<Tt det eu 2 Aes s EAC
+[p363][concept_desc][general] Brase: SR ARIA? aga Ja args: akezaarar e
+[p364][synonym_group][general] 1K, omits 7 lines, ae qareqaed Pty, 3 aft: Fe, Pt,.
+[p364][synonym_group][general] Ks, Kg; aaa Jo. «= 8 ea gett’? Ke Ky, Ks. 9 HAAN VIA TSA
+[p364][synonym_group][general] De, Kg, Kg. 0 ward, Ks, Kg; war I, Ke. 11 g& quy De, Ks, Kg.
+[p365][synonym_group][general] Ks, Kg. 8 aaa Pte. 9 Seiad Pte. 10 fRquqr Jo, Ky.
+[p366][synonym_group][general] J qag: De, Ke, Ke; Wadi Ky = Peat Fy, Pt. «=» 8 areraet aeaeiifa
+[p368][synonym_group][general] * saa Ks, Ky; areaaaaary Fy, Pte. 2 Baa Fe, Pte.
+[p370][synonym_group][general] 4 CEC ICG Pt 2. 5 FAGUTT, Da, Ks, Kg. 6 SST AS AHA gleaita at qd; Pt.
+[p371][synonym_group][general] Rae aE BCIRS PF CoTTaeaTa, ale AAT GeTge- cara Aeaedt "aate Rede sae er afer? arr stlectiet- qr arated? aretteraria S atertbegcteg’ 1 439 1 taeqafa K;, Ke, Pte. 2 STI RATMATATA «SISIE Ks, Ke.
+[p371][synonym_group][general] 3 GeqISTaMISEAT; De, Ks. 4B, Ks, Kg add araald. 5 Tate De,.
+[p371][synonym_group][general] Ks, Ks. 6 sraofiae wear Bi, De, Ks. 7 qq: waa Fo, Pt.
+[p371][synonym_group][general] SSSA wal HRA arses wore araseH h HEP’ UT: Fa aeTast se ATOT? wTTaUHaTAT S BIRIATT* Ut €e¢ i Syqckata De, Ks, Ke; aX AE HART ALaGT Ke, Bs. 2 fenalat
+[p372][concept_desc][general] TACHI: [fecfteraos:
+[p372][concept_desc][general] PUTT: IgE? ase Teg eras erasers wacTqqTaare
+[p372][synonym_group][general] Fe, Pty, Sarasa Je, Pt, =? aiddlenarg Fo, Pts, 8 ten.
+[p372][term_list][medhya] (f.) wervife—vsra? sq qafeaea ait Tero gs aear- atia? Bre “aE sa? wera sR ued) °zeq area? ? aH: beat wise ee ‘gece esoifarank ‘aarragdeg ? i ae g. THTTT] atanieareareataa: 308 eae orammatit RNS we Ga: oes: TT
+[p373][synonym_group][general] Ks, Keg. 9 ary ast D,, K;, Kg; atqzezt K,; I adds ‘wr afafaazat’.
+[p373][synonym_group][general] Saat lagad ama faeadifa, ‘ova aed’ Fe, Ky, Pte. 2 aged qq ear aaa Bei ‘aH seat? Pty. 8 qeweyta: De, Ks, Ke.
+[p373][synonym_group][general] Fo, Pte, 6 gafrar credastiat Fo, Pts, 7 @iax £4 GEATAANT
+[p374][concept_desc][general] Pareles: gfe eat yea: oraral: Becrar: qe WahawE:! era:
+[p375][synonym_group][general] Lema B,, Ks. 2anaft K;, Kg. 3 azar! De, Ks, Ke.
+[p375][synonym_group][general] 4Do, Ks, Ky add Quqqaaaa. 51, Jo add ‘a aq’.
+[p376][synonym_group][general] 1alaa sad aa; ‘Pe ad? wa TH fasts Hae K;, Kg. 2 ast usd Bi, Je, Ks. S araed alot Aaah Fy, Pts, 4 pamadi(edl) sae amar: Pt. = quifete amffy Pte.
+[p376][synonym_group][general] *qqaewaT Fo, Pt. = slngyede’ I; ‘safes’ Jo. = 6 Ks, K, add
+[p376][concept_desc][general] BURIET: HHUA THR WAAR tl Lvs
+[p377][concept_desc][general] TCESRIsT:G I AFNzZ TiatS : a d tmlaa aaa?a :gl e Tseetn) t SqAgTa veesiett wTareex taetereithe soomda arg? RE? wraaete es ere: “ote ET et
+[p377][synonym_group][general] 1 De, Ks, Ky add @heuaa.— * AYATE: Ka, Ke 8 Sra aerare,Ks.
+[p377][synonym_group][general] 4B, I, Ke add aeqd; ABSIT Fe, Pte. 8 Fe, Pt, add ‘ea fearet:’.
+[p378][synonym_group][general] 1 sqrpEaaleaeaaaqqaeaaaqqeatg «Saleh: Bi, De, Ks. 2 wala anieatate, * Gal Yat ° Dae, I, K,, K;. 3 Ta De, Ko,Ks. 4 Read Kg;
+[p378][synonym_group][general] athe Re fearaafa F., Pt. 5 areca agar De, Ky, Kg.
+[p378][concept_desc][general] Vga: aAlaraisaiar aorqeyfy 1 2ve tl
+[p380][synonym_group][general] K,, Kg add agaftear;g tarattearg I, Je. 4 qaqTarasaeaig Ds, Keg, Kg.
+[p380][synonym_group][general] De, Ks, Kg. 3 qurerarraeig Kg. 4 haat arsiafe area:
+[p380][synonym_group][general] ° T_Ver ’ Bi, Je, Kg; asia; Ks. °K;, Kg add TTT «. 6 <7EsT’ Jo.
+[p381][synonym_group][general] Leysqatiq Ks, Ke. — fatft Sara De, Ky. = Fa, Pty add
+[p382][synonym_group][general] "aa qe Ke «= BL, Ky add awe. 10 “aaa? Jn. «= Nadie
+[p384][concept_desc][general] FAA: GSES: Tiss Ka
+[p384][concept_desc][general] Alaa: GAA.’ aaa CBIRTSA? TI—
+[p385][concept_desc][general] AAMT: ALM Heat Wiweg Tasar
+[p385][synonym_group][general] De, Ks, Ke; ‘a net saqaaa a’ Jo, Kg, Pts. 9< PITTS Je.
+[p386][concept_desc][general] SHCA: THOTETTAT ° NCH Ata RTA? excl
+[p387][synonym_group][general] 1ygqeq Fo, Pt. 2ucqt: De, Ks, Ke. 2a Pt. 4% aged qeANS? Je. 5Ks, Kg add aad. Saat J. Vaz EEE yaa ° Ks, Kg.
+[p387][synonym_group][general] 1D,, Ks, Kg add a@f:. 2 ea Pa ait eqaamdifa K5, Kg.
+[p391][synonym_group][general] OYAAVSACaA. S guitars De, Ks, Ke. 10 afyataa Kz, Kg.
+[p392][concept_desc][general] SABI: TNS ATTA ‘ gfrec? 1aa% g—(a. fe. c. 22).
+[p392][synonym_group][general] ‘WOT, WeT:, waasz, ash qikaast (7. 3¢0).
+[p394][concept_desc][general] TESTS: at: ? aT rEeATESy? Serer ass aitato? artaey
+[p395][synonym_group][general] BRR lye: K;, Ke; at: Bi, Je. 2 aad, “FE Wd’ De, Ks, Keg.
+[p395][concept_desc][general] AGGHSS: Ard: BATH: Wee: Mg: AAT Beas:
+[p396][concept_desc][general] queda: waaratraRraaTiss: II)
+[p396][synonym_group][general] Ks, Ke. 4q5=qd W.. 5 De, Kg add aq. 6 afiaerata, Da,
+[p396][synonym_group][general] Ke, Wo 7 Ke, Pt, add ard wl ger ardiza: wat fig: fe eet qeq warrafag: zantac.: 8 F., Pt. add fara. 9K,, Pt, add aT eaal AGI AGT aa wayae:, Fra: ara eq Pasar, qos aid Cafe exctia qreds:, ZT fez waféz.
+[p397][concept_desc][general] guia: Request sardetagat afta’ areaaerarste—
+[p398][synonym_group][general] ‘zTat? aqeaalln‘errsete Teetes?? 18 leyeatigs De, Ks, Keg. 2 Jo adds AICS. 3 atl Ks, Ke,
+[p398][synonym_group][general] 4 aay Bi, De. 5 daca le: Ks, Ke. 6 gaseifa Woe. 7 fete eat F., Pte. 8 a-aila Pts. 9 alela Dz, Ks, Pt,. 10 Jo, Ks, W2 add maT. Ll qwqgqaaralta We. 12 «areeteg’ Jo.
+[p399][concept_desc][general] WEG: . Ve aE us aearsoserrag’? “Rete Rake fate see: Sse Barnq?1 ead aeawaae ar Sa Ta?1 qsaageda wed adie asus: usa se wes! Sus qarsnfseretag’ vegans S Sagateg? ll sara ToeIserRdtia
+[p399][synonym_group][general] Ks, Kg. 8<aute’ Jo. 9 quefq meUBA_ Dez, Kg. 10 queqig dena GSN: TE, TaN Fe, Pte. 11< gemgag’ Pty. 12 set guemanadifa, “aa wal’ Fo, Pt. 13 ageq zaea feaq Ws: Fe, Pt,.
+[p399][synonym_group][general] (a1,) aa:—aatar: —
+[p400][concept_desc][general] TVA: EBT: TA ASA WET TT:
+[p400][concept_desc][general] SARA: el Sea: HOT STG aerate WI— aaa Tas: Heo? HeoaBeaane S qeaa-
+[p400][concept_desc][general] WIT: ° a aaisTaTaTTTY mara Wena? (a. &. 4.4.
