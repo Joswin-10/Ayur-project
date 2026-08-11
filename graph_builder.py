@@ -6,7 +6,7 @@
 
 from collections import defaultdict
 from extractor import Node, Triple, MedhyaExtractor
-from validator import validate_concept, ValidationReport
+from validator import validate_concept, validate_pdf_term, ValidationReport
 from config    import LABEL_CONCEPT, ALL_RELATIONS
 
 
@@ -32,7 +32,10 @@ class GraphBuilder:
                 accepted_nodes += 1
                 continue
 
-            valid, reason = validate_concept(node.name)
+            if node.source == "amarakosha":
+                valid, reason = validate_pdf_term(node.name, entry_is_domain=True)
+            else:
+                valid, reason = validate_concept(node.name)
             self.report.record(node.name, valid, reason)
 
             if valid:

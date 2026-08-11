@@ -7,12 +7,14 @@
 #   python main.py --pdf amarakosha.pdf --neo4j --clear
 #   python main.py --pdf amarakosha.pdf --llm --neo4j
 #   python main.py --pdf amarakosha.pdf           # export JSON only, no Neo4j
+#   python main.py --pdf scanned.pdf --ocr        # scanned/image PDF (needs Tesseract)
 #
 # Flags:
 #   --pdf        path to Amarakosha PDF (required)
 #   --neo4j      load graph into Neo4j
 #   --clear      wipe Neo4j before loading (use on first run)
 #   --llm        use Groq LLM for ambiguous entries
+#   --ocr        OCR scanned pages with Tesseract (Sanskrit/Devanagari)
 #   --all-lines  parse ALL lines, not just Medhya/Rasayana relevant ones
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -40,6 +42,8 @@ def main():
                         help="Use LLM for ambiguous entries (needs GROQ_API_KEY)")
     parser.add_argument("--all-lines", action="store_true",
                         help="Parse all lines, not just Medhya/Rasayana relevant ones")
+    parser.add_argument("--ocr",       action="store_true",
+                        help="OCR scanned/image PDF pages (requires Tesseract + Sanskrit/Hindi pack)")
     parser.add_argument("--export",    default=OUTPUT_TRIPLES_PATH,
                         help=f"JSON export path (default: {OUTPUT_TRIPLES_PATH})")
     args = parser.parse_args()
@@ -51,19 +55,27 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     print("\n" + "="*60)
-    print("  AMARAKOSHA → MEDHYA RASAYANA KNOWLEDGE GRAPH")
+    print("  AMARAKOSHA -> MEDHYA RASAYANA KNOWLEDGE GRAPH")
     print("="*60)
 
     # ── Step 1: Parse PDF ──────────────────────────────────────────────────
     print("\n[1/4] Parsing Amarakosha PDF")
     pdf_parser = AmarakoshaParser()
-    entries = pdf_parser.parse(
-    pdf_path=args.pdf,
-    save_cleaned=True,
-)
+    try:
+        entries = pdf_parser.parse(
+            pdf_path=args.pdf,
+            save_cleaned=True,
+            use_ocr=args.ocr,
+            parse_all_lines=args.all_lines,
+        )
+    except RuntimeError as exc:
+        print(f"\n  Error: {exc}")
+        return
 
     if not entries:
         print("\n  No entries extracted.")
+        if not args.ocr:
+            print("  Your PDF may be scanned — try: python main.py --pdf <file> --ocr")
         print("  Try running with --all-lines if the PDF has dense content.")
         print("  Also check output/cleaned_text.txt to inspect what was read.")
         return
@@ -113,13 +125,23 @@ def print_queries():
   MATCH (h:Herb)-[:TYPE_OF]->({name:'Medhya Rasayana'})
   RETURN h.name, h.latin, h.description
 
-  # Everything Medhya is associated with
+  # Seed ontology (semantic)
   MATCH ({name:'Medhya'})-[:ASSOCIATED_WITH]->(c)
   RETURN c.name, c.description ORDER BY c.name
 
+  # Subgroup membership (TYPE_OF + PART_OF)
+  MATCH (root) WHERE root.name IN ['Medhya','Rasayana','Medhya Rasayana']
+  MATCH (n)-[r:TYPE_OF|PART_OF]->(root)
+  RETURN n.name, type(r) AS relation, root.name AS subgroup
+
+  # Synonyms under Medhya subgroup
+  MATCH (n)-[:TYPE_OF|PART_OF]->({name:'Medhya'})
+  OPTIONAL MATCH (n)-[:SYNONYM_OF]-(syn)
+  RETURN n.name, collect(DISTINCT syn.name) AS synonyms
+
   # Synonym chains from Amarakosha
-  MATCH (a)-[:SYNONYM_OF*1..3]->(b)
-  RETURN a.name, b.name
+  MATCH (a)-[:SYNONYM_OF]-(b)
+  RETURN a.name, b.name LIMIT 100
 
   # Herbs that enhance Smriti or Medha
   MATCH (h:Herb)-[:ENHANCES]->(c)

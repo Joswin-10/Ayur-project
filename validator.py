@@ -6,6 +6,17 @@
 
 import re
 
+from config import (
+    ALL_RELEVANT_KEYWORDS,
+    DOMAIN_SUFFIXES,
+    HERB_KEYWORDS,
+    HERB_DEVANAGARI_MARKERS,
+    MEDHYA_KEYWORDS,
+    MEDHYA_DEVANAGARI_MARKERS,
+    RASAYANA_KEYWORDS,
+    RASAYANA_DEVANAGARI_MARKERS,
+)
+
 # ── Ontology whitelist ────────────────────────────────────────────────────────
 # ONLY concepts matching or directly related to these survive extraction.
 
@@ -97,6 +108,122 @@ ENGLISH_VERBS = {
 # Devanagari range
 DEVANAGARI_RE = re.compile(r"[\u0900-\u097F]")
 
+_MEDHYA_ROOT_FRAGMENTS = tuple(sorted(MEDHYA_KEYWORDS | {"medhy", "smrit", "buddh", "prajn", "manas"}))
+_RASAYANA_ROOT_FRAGMENTS = tuple(sorted(RASAYANA_KEYWORDS | {"rasayan", "ojas", "ayush", "balya"}))
+_HERB_ROOT_FRAGMENTS = tuple(sorted(HERB_KEYWORDS))
+
+SENTENCE_PATTERN = re.compile(
+    r"\b(is|are|was|were|has|have|had|does|do|did|says|said|means|"
+    r"refers|indicates|describes|states|translates|appears|found|"
+    r"used|known|called|translated|composed|written|published)\b",
+    re.IGNORECASE,
+)
+
+
+def has_domain_devanagari_marker(text: str) -> bool:
+    return any(m in text for m in (
+        MEDHYA_DEVANAGARI_MARKERS + RASAYANA_DEVANAGARI_MARKERS + HERB_DEVANAGARI_MARKERS
+    ))
+
+
+def is_english_commentary(line: str) -> bool:
+    """Skip translator notes and English prose paragraphs."""
+    words = re.findall(r"[A-Za-z]{3,}", line)
+    dev_count = len(DEVANAGARI_RE.findall(line))
+    if len(words) >= 8 and dev_count < 3:
+        return True
+    if SENTENCE_PATTERN.search(line) and len(words) >= 5 and dev_count < 2:
+        return True
+    if re.search(r"\b(Buddhist|philosophy|edition|manuscript|translator|preface)\b", line, re.I):
+        return True
+    return False
+
+
+def line_passes_domain_filter(line: str) -> bool:
+    if is_domain_relevant(line):
+        return True
+    if has_domain_devanagari_marker(line):
+        return True
+    return False
+
+
+def is_domain_relevant(text: str) -> bool:
+    """True if text is plausibly Medhya/Rasayana/herb/property related."""
+    if not text or not text.strip():
+        return False
+
+    lower = text.lower()
+    compact = re.sub(r"[^\w\u0900-\u097F]", "", lower)
+
+    if any(k in lower for k in ALL_RELEVANT_KEYWORDS):
+        return True
+
+    for root in WHITELIST_LOWER:
+        if len(root) > 3 and root in compact:
+            return True
+
+    if any(suf in compact for suf in DOMAIN_SUFFIXES):
+        if any(r in compact for r in _MEDHYA_ROOT_FRAGMENTS + _RASAYANA_ROOT_FRAGMENTS):
+            return True
+
+    if any(r in compact for r in _HERB_ROOT_FRAGMENTS):
+        return True
+
+    return False
+
+
+DEVANAGARI_STOP_TERMS = {
+    "इति", "अत्र", "तु", "च", "वा", "हि", "एव", "सा", "सः", "तत्",
+    "या", "कम्", "नाम", "नामानि", "स्य", "स्यात्", "भवति", "उक्त",
+    "शब्द", "शब्दः", "द्वि", "त्रि", "चतु", "पञ्च",
+}
+
+
+def is_ocr_noise_term(name: str) -> bool:
+    """Reject common OCR garbage while keeping Sanskrit lexical terms."""
+    if name in DEVANAGARI_STOP_TERMS:
+        return True
+
+    if re.search(r"\d", name):
+        return True
+
+    letters = re.findall(r"[A-Za-z]", name)
+    devanagari = DEVANAGARI_RE.findall(name)
+    if letters and devanagari and len(name) < 20:
+        return True
+
+    if len(name) < 3:
+        return True
+
+    if re.fullmatch(r"[\W\d_]+", name):
+        return True
+
+    latin_ratio = len(letters) / max(len(name.replace(" ", "")), 1)
+    if latin_ratio > 0.85 and not is_domain_relevant(name):
+        return True
+
+    if DEVANAGARI_RE.search(name) and len(name) > 22:
+        return True
+
+    return False
+
+
+def has_strong_domain_signal(text: str) -> bool:
+    """Stricter than is_domain_relevant — avoids substring false positives."""
+    if not text:
+        return False
+    if text in ONTOLOGY_WHITELIST or text.lower() in WHITELIST_LOWER:
+        return True
+    if text.lower() in KNOWN_SANSKRIT_TERMS:
+        return True
+    lower = text.lower()
+    for kw in ALL_RELEVANT_KEYWORDS:
+        if len(kw) >= 4 and re.search(r"(?<![a-z])" + re.escape(kw) + r"(?![a-z])", lower):
+            return True
+    return any(m in text for m in (
+        MEDHYA_DEVANAGARI_MARKERS + RASAYANA_DEVANAGARI_MARKERS + HERB_DEVANAGARI_MARKERS
+    ))
+
 
 # ── Validation function ───────────────────────────────────────────────────────
 
@@ -151,9 +278,11 @@ def validate_concept(name: str) -> tuple[bool, str]:
     if name.lower() in KNOWN_SANSKRIT_TERMS:
         return True, "known_sanskrit"
 
-    # Accept Devanagari text (Sanskrit script)
+    # Accept Devanagari text only when domain-relevant (avoids OCR junk nodes)
     if DEVANAGARI_RE.search(name):
-        return True, "devanagari"
+        if is_domain_relevant(name):
+            return True, "devanagari_domain"
+        return False, "devanagari_not_domain"
 
     # ── Rule 8: Medhya-proximity check ─────────────────────────────────────
     # Accept compound Sanskrit terms that contain whitelist roots
@@ -169,8 +298,46 @@ def validate_concept(name: str) -> tuple[bool, str]:
         # Multi-word English phrase not in whitelist → reject
         return False, "multi-word English phrase not in ontology"
 
-    # Single English word — accept cautiously (may be transliteration)
-    return True, "accepted"
+    # Single transliterated word — keep only if domain-relevant
+    if is_domain_relevant(name):
+        return True, "domain_relevant"
+
+    return False, "not_domain_relevant"
+
+
+def validate_pdf_term(
+    name: str,
+    entry_is_domain: bool = False,
+    in_synonym_group: bool = False,
+) -> tuple[bool, str]:
+    """Stricter validation for PDF-extracted terms."""
+    if is_ocr_noise_term(name):
+        return False, "ocr_noise"
+
+    if in_synonym_group and entry_is_domain and DEVANAGARI_RE.search(name):
+        if 2 <= len(name) <= 22 and not re.search(r"\d", name):
+            if name not in DEVANAGARI_STOP_TERMS:
+                return True, "synonym_group_devanagari"
+
+    if entry_is_domain and DEVANAGARI_RE.search(name):
+        if 2 <= len(name) <= 22 and not re.search(r"\d", name):
+            if has_strong_domain_signal(name) or len(name) <= 12:
+                return True, "entry_domain_devanagari"
+
+    valid, reason = validate_concept(name)
+    if not valid:
+        return False, reason
+
+    if entry_is_domain or reason in {"whitelist", "known_sanskrit"}:
+        return True, reason
+
+    if reason.startswith("contains_root:"):
+        return True, reason
+
+    if is_domain_relevant(name):
+        return True, reason
+
+    return False, "not_domain_relevant"
 
 
 class ValidationReport:

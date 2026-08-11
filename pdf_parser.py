@@ -12,8 +12,15 @@ from dataclasses import dataclass, field
 
 import pdfplumber
 
-from config import ALL_RELEVANT_KEYWORDS, MEDHYA_KEYWORDS, RASAYANA_KEYWORDS, HERB_KEYWORDS
-from validator import validate_concept, DEVANAGARI_RE
+from config import (
+    ALL_RELEVANT_KEYWORDS, MEDHYA_KEYWORDS, RASAYANA_KEYWORDS, HERB_KEYWORDS,
+    HERB_DEVANAGARI_MARKERS, MEDHYA_DEVANAGARI_MARKERS, RASAYANA_DEVANAGARI_MARKERS,
+)
+from ocr_extractor import check_tesseract, extract_page_text
+from validator import (
+    validate_concept, validate_pdf_term, DEVANAGARI_RE, is_domain_relevant,
+    line_passes_domain_filter, is_english_commentary, has_domain_devanagari_marker,
+)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Data structure
@@ -59,6 +66,18 @@ NON_LEXICAL_LINE_PATTERNS = [
 
 NON_LEXICAL_COMPILED = [re.compile(p, re.IGNORECASE) for p in NON_LEXICAL_LINE_PATTERNS]
 
+OCR_NOISE_PATTERNS = [
+    r"^\s*[\(\[]",
+    r"(omitted|dial\.|derivations|mss\.|mss\b)",
+    r"^\s*\d+[\.\)]\s",
+    r"प्र\.\s*\d",
+    r"को\.\s*\d",
+    r"^\s*[A-Za-z]{1,2}[\.,]",
+    r"iti\s+[\w\u0900-\u097F]+\s*[\.\|]",
+]
+
+OCR_NOISE_COMPILED = [re.compile(p, re.IGNORECASE) for p in OCR_NOISE_PATTERNS]
+
 # Lines that look like English sentences (not lexical entries)
 SENTENCE_PATTERN = re.compile(
     r"\b(is|are|was|were|has|have|had|does|do|did|says|said|means|"
@@ -73,6 +92,13 @@ COMMON_ENGLISH = {
     "but", "with", "from", "by", "as", "at", "its", "it", "this",
     "that", "which", "who", "where", "when", "how", "what",
 }
+
+
+def is_ocr_noise_line(line: str) -> bool:
+    for pattern in OCR_NOISE_COMPILED:
+        if pattern.search(line):
+            return True
+    return False
 
 
 def is_non_lexical_line(line: str) -> bool:
@@ -111,17 +137,26 @@ def is_non_lexical_section(line: str) -> bool:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def detect_domain(text: str) -> str:
-    lower = text.lower()
-    if any(k in lower for k in HERB_KEYWORDS):    return "herb"
-    if any(k in lower for k in MEDHYA_KEYWORDS):  return "medhya"
-    if any(k in lower for k in RASAYANA_KEYWORDS):return "rasayana"
+    if any(m in text for m in HERB_DEVANAGARI_MARKERS):
+        return "herb"
+    if any(k in text.lower() for k in HERB_KEYWORDS):
+        return "herb"
+    if any(m in text for m in MEDHYA_DEVANAGARI_MARKERS):
+        return "medhya"
+    if any(k in text.lower() for k in MEDHYA_KEYWORDS):
+        return "medhya"
+    if any(m in text for m in RASAYANA_DEVANAGARI_MARKERS):
+        return "rasayana"
+    if any(k in text.lower() for k in RASAYANA_KEYWORDS):
+        return "rasayana"
     return "general"
 
 def is_relevant(text: str) -> bool:
-    lower = text.lower()
-    # Accept if contains known keywords OR Devanagari
-    return (any(k in lower for k in ALL_RELEVANT_KEYWORDS)
-            or bool(DEVANAGARI_RE.search(text)))
+    return is_domain_relevant(text)
+
+
+def entry_has_domain_terms(terms: list[str]) -> bool:
+    return any(is_domain_relevant(t) for t in terms)
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -141,23 +176,33 @@ def clean_line(line: str) -> str:
 # ──────────────────────────────────────────────────────────────────────────────
 
 TERM_SEPARATORS = re.compile(
-    r"[,;=\/]|"
-    r"\b(ca|cha|va|api|tatha|ityapi|ityeke|ityanye|paryayah|paryaya)\b",
+    r"[,;=\/।॥\|·•]|"
+    r"\b(ca|cha|va|api|tatha|ityapi|ityeke|ityanye|paryayah|paryaya|"
+    r"namani|sabdah|ity|atha)\b",
     re.IGNORECASE
 )
 
-def extract_terms(text: str) -> list[str]:
+DEVANAGARI_TERM_RE = re.compile(r"[\u0900-\u097F]{2,25}")
+
+
+def extract_devanagari_terms(text: str) -> list[str]:
+    return list(dict.fromkeys(DEVANAGARI_TERM_RE.findall(text)))
+
+def extract_terms(text: str, in_synonym_group: bool = False) -> list[str]:
     """Split on synonym separators, return validated terms only."""
     parts = TERM_SEPARATORS.split(text)
     terms = []
-    skip_words = {"ca","cha","va","api","tatha","ityapi","ityeke","ityanye","paryayah","paryaya"}
+    skip_words = {
+        "ca", "cha", "va", "api", "tatha", "ityapi", "ityeke", "ityanye",
+        "paryayah", "paryaya", "namani", "sabdah", "ity", "atha",
+    }
+    domain = is_domain_relevant(text)
     for p in parts:
         if p is None:
             continue
         t = re.sub(r"[^\w\s\u0900-\u097F]", "", p).strip()
         if t and t.lower() not in skip_words and len(t) > 1:
-            valid, _ = validate_concept(t)
-            if valid:
+            if validate_pdf_term(t, domain, in_synonym_group=in_synonym_group)[0]:
                 terms.append(t)
     return terms
 
@@ -179,17 +224,35 @@ class AmarakoshaParser:
         self.entries: list[ParsedEntry] = []
         self._in_non_lexical_section    = False
 
-    def _extract_pdf_lines(self, pdf_path: str) -> list[tuple[int, str]]:
+    def _extract_pdf_lines(self, pdf_path: str, use_ocr: bool = False) -> list[tuple[int, str]]:
         page_lines = []
+        ocr_count = 0
+
+        if use_ocr:
+            ok, msg = check_tesseract()
+            if not ok:
+                raise RuntimeError(msg)
+            print(f"  OCR enabled — {msg}")
+
         with pdfplumber.open(pdf_path) as pdf:
-            print(f"  PDF: {len(pdf.pages)} pages")
+            total = len(pdf.pages)
+            print(f"  PDF: {total} pages")
             for i, page in enumerate(pdf.pages):
-                text = page.extract_text()
+                page_num = i + 1
+                text = extract_page_text(page, page_num, pdf_path, use_ocr)
                 if not text:
-                    print(f"  ⚠ Page {i+1}: no text (scanned?)")
+                    if not use_ocr:
+                        print(f"  ⚠ Page {page_num}: no text (scanned?) — use --ocr")
                     continue
+                if use_ocr and not (page.extract_text() or "").strip():
+                    ocr_count += 1
+                    if page_num == 1 or page_num % 25 == 0 or page_num == total:
+                        print(f"  OCR progress: page {page_num}/{total}")
                 for line in text.split("\n"):
-                    page_lines.append((i + 1, line))
+                    page_lines.append((page_num, line))
+
+        if use_ocr:
+            print(f"  OCR'd {ocr_count} page(s)")
         print(f"  Raw lines: {len(page_lines)}")
         return page_lines
 
@@ -208,8 +271,17 @@ class AmarakoshaParser:
             i += 1
         return merged
 
-    def _parse_line(self, line: str, page_num: int) -> ParsedEntry | None:
+    def _parse_line(self, line: str, page_num: int,
+                    parse_all_lines: bool = False) -> ParsedEntry | None:
         cleaned = clean_line(line)
+
+        if is_ocr_noise_line(cleaned) or is_english_commentary(cleaned):
+            return None
+
+        if not parse_all_lines and not line_passes_domain_filter(cleaned):
+            return None
+
+        entry_domain = parse_all_lines or line_passes_domain_filter(cleaned)
 
         # Section-level filter
         if is_non_lexical_section(cleaned):
@@ -227,13 +299,20 @@ class AmarakoshaParser:
         if is_non_lexical_line(cleaned):
             return None
 
-        relevant = is_relevant(cleaned)
+        relevant = is_domain_relevant(cleaned) or has_domain_devanagari_marker(cleaned)
         domain   = detect_domain(cleaned)
         fmt      = detect_format(cleaned)
 
         if fmt == "synonym_group":
-            terms = extract_terms(cleaned)
-            if len(terms) < 2:          # need at least 2 terms for a synonym group
+            terms = list(dict.fromkeys(
+                extract_terms(cleaned, in_synonym_group=True)
+                + extract_devanagari_terms(cleaned)
+            ))
+            terms = [
+                t for t in terms
+                if validate_pdf_term(t, entry_domain, in_synonym_group=True)[0]
+            ]
+            if len(terms) < 2:
                 return None
             return ParsedEntry(
                 terms=terms, synonyms=terms, description="",
@@ -246,7 +325,7 @@ class AmarakoshaParser:
             term  = parts[0].strip()
             desc  = parts[1].strip() if len(parts) > 1 else ""
 
-            valid, reason = validate_concept(term)
+            valid, reason = validate_pdf_term(term, entry_domain)
             if not valid:
                 return None
 
@@ -257,9 +336,12 @@ class AmarakoshaParser:
             synonyms = []
             for m in syn_matches:
                 t = m.strip()
-                v, _ = validate_concept(t)
-                if v:
+                if validate_pdf_term(t, entry_domain)[0]:
                     synonyms.append(t)
+
+            for dt in extract_devanagari_terms(desc):
+                if validate_pdf_term(dt, entry_domain)[0]:
+                    synonyms.append(dt)
 
             return ParsedEntry(
                 terms=[term], synonyms=synonyms, description=desc,
@@ -267,35 +349,45 @@ class AmarakoshaParser:
                 page_num=page_num, domain=domain,
             )
 
-        else:  # term_list
-            # Only accept if relevant to Medhya/Rasayana domain
-            if not relevant:
-                return None
-            terms = []
-            for raw in cleaned.split():
-                t = re.sub(r"[^\w\u0900-\u097F]", "", raw).strip()
-                valid, _ = validate_concept(t)
-                if valid and len(t) > 2:
-                    terms.append(t)
-            if not terms:
-                return None
-            return ParsedEntry(
-                terms=terms, synonyms=[], description="",
-                source_line=cleaned, format_type="term_list",
-                page_num=page_num, domain=domain,
-            )
+        else:  # term_list — also harvest Devanagari tokens from domain lines
+            terms = list(dict.fromkeys(
+                extract_devanagari_terms(cleaned)
+                + [
+                    re.sub(r"[^\w\u0900-\u097F]", "", raw).strip()
+                    for raw in cleaned.split()
+                ]
+            ))
+            terms = [
+                t for t in terms
+                if t and validate_pdf_term(t, entry_domain, in_synonym_group=True)[0]
+                and len(t) > 1
+            ]
+            if len(terms) >= 2:
+                return ParsedEntry(
+                    terms=terms, synonyms=terms, description="",
+                    source_line=cleaned, format_type="synonym_group",
+                    page_num=page_num, domain=domain,
+                )
+            if len(terms) == 1:
+                return ParsedEntry(
+                    terms=terms, synonyms=[], description="",
+                    source_line=cleaned, format_type="term_list",
+                    page_num=page_num, domain=domain,
+                )
+            return None
 
-    def parse(self, pdf_path: str, save_cleaned: bool = True) -> list[ParsedEntry]:
+    def parse(self, pdf_path: str, save_cleaned: bool = True,
+              use_ocr: bool = False, parse_all_lines: bool = False) -> list[ParsedEntry]:
         print(f"\nParsing: {pdf_path}\n")
 
-        raw_lines = self._extract_pdf_lines(pdf_path)
+        raw_lines = self._extract_pdf_lines(pdf_path, use_ocr=use_ocr)
         merged    = self._merge_continuations(raw_lines)
 
         entries = []
         n_kept = n_skip = 0
 
         for page_num, line in merged:
-            entry = self._parse_line(line, page_num)
+            entry = self._parse_line(line, page_num, parse_all_lines=parse_all_lines)
             if entry:
                 entries.append(entry)
                 n_kept += 1

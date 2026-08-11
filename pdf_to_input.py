@@ -23,6 +23,8 @@ import os
 import argparse
 import pdfplumber
 
+from ocr_extractor import check_tesseract, extract_page_text
+
 # ── Lines containing these keywords are likely Ayurveda content ───────────────
 # Used to keep relevant lines when the PDF has mixed content.
 AYURVEDA_KEYWORDS = {
@@ -63,17 +65,33 @@ DESC_LINE = re.compile(r"^\w[\w\s]+\s*:\s*.{10,}")
 # Step 1: Extract raw text from PDF
 # ──────────────────────────────────────────────────────────────────────────────
 
-def extract_text(pdf_path: str) -> list[str]:
+def extract_text(pdf_path: str, use_ocr: bool = False) -> list[str]:
     """Returns list of text lines from all pages."""
     all_lines = []
+
+    if use_ocr:
+        ok, msg = check_tesseract()
+        if not ok:
+            raise RuntimeError(msg)
+        print(f"  OCR enabled — {msg}")
+
     with pdfplumber.open(pdf_path) as pdf:
-        print(f"  PDF: {len(pdf.pages)} pages")
+        total = len(pdf.pages)
+        print(f"  PDF: {total} pages")
+        ocr_count = 0
         for i, page in enumerate(pdf.pages):
-            text = page.extract_text()
+            page_num = i + 1
+            text = extract_page_text(page, page_num, pdf_path, use_ocr)
             if not text:
-                print(f"  ⚠ Page {i+1}: no text (scanned image?)")
+                if not use_ocr:
+                    print(f"  ⚠ Page {page_num}: no text (scanned image?) — use --ocr")
                 continue
+            if use_ocr and not (page.extract_text() or "").strip():
+                ocr_count += 1
             all_lines.extend(text.split("\n"))
+        if use_ocr:
+            print(f"  OCR'd {ocr_count} page(s)")
+
     print(f"  Extracted {len(all_lines)} raw lines")
     return all_lines
 
@@ -139,7 +157,7 @@ def merge_continuations(lines: list[str]) -> list[str]:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def convert(pdf_path: str, output_path: str = "data/input.txt",
-            strict_filter: bool = True):
+            strict_filter: bool = True, use_ocr: bool = False):
     """
     strict_filter=True  → only keep lines with known Ayurveda keywords
     strict_filter=False → keep all non-noise lines (use for dense lexical PDFs
@@ -148,7 +166,7 @@ def convert(pdf_path: str, output_path: str = "data/input.txt",
     print(f"\nConverting: {pdf_path}\n")
 
     # 1. Extract
-    raw_lines = extract_text(pdf_path)
+    raw_lines = extract_text(pdf_path, use_ocr=use_ocr)
 
     # 2. Clean
     cleaned = [clean_line(l) for l in raw_lines]
@@ -219,10 +237,16 @@ if __name__ == "__main__":
                         help="Output path (default: data/input.txt)")
     parser.add_argument("--no-filter", action="store_true",
                         help="Keep all lines, skip Ayurveda keyword filter")
+    parser.add_argument("--ocr", action="store_true",
+                        help="OCR scanned/image PDF pages (requires Tesseract)")
     args = parser.parse_args()
 
-    convert(
-        pdf_path=args.pdf,
-        output_path=args.output,
-        strict_filter=not args.no_filter,
-    )
+    try:
+        convert(
+            pdf_path=args.pdf,
+            output_path=args.output,
+            strict_filter=not args.no_filter,
+            use_ocr=args.ocr,
+        )
+    except RuntimeError as exc:
+        print(f"\nError: {exc}")

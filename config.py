@@ -9,7 +9,7 @@ import os
 # ── Neo4j ─────────────────────────────────────────────────────────────────────
 NEO4J_URI      = os.getenv("NEO4J_URI",      "bolt://localhost:7687")
 NEO4J_USER     = os.getenv("NEO4J_USER",     "neo4j")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "Joswin123")
 
 NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", "amar")
 
@@ -23,6 +23,16 @@ OUTPUT_DIR          = "output"
 OUTPUT_TRIPLES_PATH = "output/triples.json"
 OUTPUT_CLEANED_PATH = "output/cleaned_text.txt"
 
+# ── OCR (scanned PDFs) ────────────────────────────────────────────────────────
+OCR_LANG       = os.getenv("OCR_LANG", "san+eng")
+OCR_DPI        = int(os.getenv("OCR_DPI", "300"))
+OCR_CACHE_DIR  = os.path.join(OUTPUT_DIR, "ocr_cache")
+TESSERACT_CMD  = os.getenv("TESSERACT_CMD", "")
+
+# ── Graph extraction ──────────────────────────────────────────────────────────
+MAX_GRAPH_HOPS = int(os.getenv("MAX_GRAPH_HOPS", "6"))
+MAX_GRAPH_NODES = int(os.getenv("MAX_GRAPH_NODES", "1000"))
+
 # ── Node labels ───────────────────────────────────────────────────────────────
 LABEL_ROOT     = "RootConcept"
 LABEL_CONCEPT  = "Concept"
@@ -34,6 +44,7 @@ ALLOWED_LABELS = {LABEL_ROOT, LABEL_CONCEPT, LABEL_HERB, LABEL_PROPERTY}
 # ── Relationship types ────────────────────────────────────────────────────────
 REL_SYNONYM_OF      = "SYNONYM_OF"
 REL_ASSOCIATED_WITH = "ASSOCIATED_WITH"
+REL_ANCHORED_TO     = "ANCHORED_TO"      # PDF root glue only (not semantic seed knowledge)
 REL_RELATED_TO      = "RELATED_TO"
 REL_PART_OF         = "PART_OF"
 REL_TYPE_OF         = "TYPE_OF"
@@ -42,9 +53,16 @@ REL_ENHANCES        = "ENHANCES"
 REL_HAS_PROPERTY    = "HAS_PROPERTY"
 
 ALL_RELATIONS = {
-    REL_SYNONYM_OF, REL_ASSOCIATED_WITH, REL_RELATED_TO,
+    REL_SYNONYM_OF, REL_ASSOCIATED_WITH, REL_ANCHORED_TO, REL_RELATED_TO,
     REL_PART_OF, REL_TYPE_OF, REL_SUPPORTS,
     REL_ENHANCES, REL_HAS_PROPERTY,
+}
+
+# Extraction priority — synonym + subgroup first; secondary relations trimmed under node cap
+PRIORITY_RELATIONS = {REL_SYNONYM_OF, REL_TYPE_OF, REL_PART_OF}
+SECONDARY_RELATIONS = {
+    REL_ANCHORED_TO, REL_RELATED_TO, REL_ASSOCIATED_WITH,
+    REL_SUPPORTS, REL_ENHANCES, REL_HAS_PROPERTY,
 }
 
 # ── Root concepts ─────────────────────────────────────────────────────────────
@@ -138,7 +156,19 @@ SEED_RELATIONSHIPS = [
     # Root hierarchy
     ("Medhya Rasayana", REL_TYPE_OF,         "Rasayana"),
     ("Medhya Rasayana", REL_ASSOCIATED_WITH,  "Medhya"),
-    # Cognitive → Medhya
+    # Cognitive → Medhya (subgroup + association)
+    ("Medha",   REL_PART_OF,         "Medhya"),
+    ("Smriti",  REL_PART_OF,         "Medhya"),
+    ("Buddhi",  REL_PART_OF,         "Medhya"),
+    ("Dhi",     REL_PART_OF,         "Medhya"),
+    ("Prajna",  REL_PART_OF,         "Medhya"),
+    ("Manas",   REL_PART_OF,         "Medhya"),
+    ("Dhriti",  REL_PART_OF,         "Medhya"),
+    ("Chitta",  REL_PART_OF,         "Medhya"),
+    ("Mati",    REL_PART_OF,         "Medhya"),
+    ("Viveka",  REL_PART_OF,         "Medhya"),
+    ("Dharana", REL_PART_OF,         "Medhya"),
+    ("Jnana",   REL_PART_OF,         "Medhya"),
     ("Medhya", REL_ASSOCIATED_WITH, "Medha"),
     ("Medhya", REL_ASSOCIATED_WITH, "Smriti"),
     ("Medhya", REL_ASSOCIATED_WITH, "Buddhi"),
@@ -155,7 +185,14 @@ SEED_RELATIONSHIPS = [
     ("Smriti", REL_RELATED_TO, "Manas"),
     ("Smriti", REL_RELATED_TO, "Dharana"),
     ("Viveka", REL_RELATED_TO, "Buddhi"),
-    # Rasayana
+    # Rasayana subgroups
+    ("Ojas",         REL_PART_OF,         "Rasayana"),
+    ("Ayushya",      REL_PART_OF,         "Rasayana"),
+    ("Balya",        REL_PART_OF,         "Rasayana"),
+    ("Vayasthapana", REL_PART_OF,         "Rasayana"),
+    ("Jeevaniya",    REL_PART_OF,         "Rasayana"),
+    ("Pushtikara",   REL_PART_OF,         "Rasayana"),
+    ("Ojovardhana",  REL_PART_OF,         "Rasayana"),
     ("Rasayana",    REL_ASSOCIATED_WITH, "Ojas"),
     ("Rasayana",    REL_ASSOCIATED_WITH, "Ayushya"),
     ("Rasayana",    REL_ASSOCIATED_WITH, "Balya"),
@@ -200,22 +237,51 @@ AMAR_SYNONYM_MARKERS = [
 MEDHYA_KEYWORDS = {
     "medha", "smriti", "buddhi", "dhi", "prajna", "manas", "chitta",
     "mati", "dhriti", "viveka", "jnana", "dharana", "medhya",
-    "smaran", "dharan", "chetana", "bodha",
+    "smaran", "dharan", "chetana", "bodha", "buddhi", "prajna",
+    "medhavardhana", "smritivardhana", "buddhivardhana", "smritiprada",
+    "medhakara", "medhajanana", "anusmriti",
 }
 
 RASAYANA_KEYWORDS = {
     "rasayana", "ojas", "ayushya", "balya", "jeevaniya",
     "vayasthapana", "pushtikara", "ojovardhana", "brimhana",
-    "jivaniya", "vrishya",
+    "jivaniya", "vrishya", "ayushya", "balya", "jeevan",
 }
 
 HERB_KEYWORDS = {
     "brahmi", "shankhapushpi", "mandukaparni", "guduchi", "yashtimadhu",
     "vacha", "ashwagandha", "bacopa", "centella", "tinospora",
-    "mandukparni", "shankhpushpi",
+    "mandukparni", "shankhpushpi", "jalabrahmi", "giloy", "gotu",
+    "mulethi", "licorice", "ashvagandha", "thankuni", "amrita",
 }
 
-ALL_RELEVANT_KEYWORDS = MEDHYA_KEYWORDS | RASAYANA_KEYWORDS | HERB_KEYWORDS
+PROPERTY_KEYWORDS = {
+    "rasa", "guna", "virya", "vipaka", "prabhava", "kalpana", "dravya",
+    "swarasa", "churna", "kalka", "kwatha", "avaleha",
+}
+
+DOMAIN_SUFFIXES = {
+    "vardhana", "vardhini", "vardhani", "prada", "kara", "janana",
+    "vardhan", "pradayini",
+}
+
+MEDHYA_DEVANAGARI_MARKERS = (
+    "मेधा", "मेध", "स्मृति", "स्मृ", "बुद्धि", "बुद्ध", "प्रज्ञा", "प्रज्ञ",
+    "मनस", "धीः", "धीय", "संवित", "संकल्प", "चेतना", "बोध",
+)
+
+RASAYANA_DEVANAGARI_MARKERS = (
+    "रसायन", "ओज", "आयुष", "बल्य", "जीवन", "वयः", "पुष्ट",
+)
+
+HERB_DEVANAGARI_MARKERS = (
+    "ब्राह्म", "शङ्ख", "माण्डूक", "गुडूच", "वचा", "अश्वगन्ध",
+    "यष्टि", "मन्थ", "तुलसी", "नाग",
+)
+
+ALL_RELEVANT_KEYWORDS = (
+    MEDHYA_KEYWORDS | RASAYANA_KEYWORDS | HERB_KEYWORDS | PROPERTY_KEYWORDS
+)
 
 # ── Synonym map for normalization ─────────────────────────────────────────────
 SYNONYM_MAP = {}
